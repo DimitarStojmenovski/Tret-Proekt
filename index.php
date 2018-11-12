@@ -1,5 +1,5 @@
 <?php
 
-header("Location: energija/helloKitty.html");
+header("Location: tretProekt.html");
 exit;
 ?>
