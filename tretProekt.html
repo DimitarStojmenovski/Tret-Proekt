@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tretProekt.css">
+
+    <title>Tret proekt</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn">Топ</button>
+      <div class="container">
+        <div class="pos-f-t">
+          <nav class="navbar navbar-light bg-lightgrey">
+            <a href="#" class="navbar-brand">
+              <span><img src="Materijali/Brainster-Logo.png" alt="logo" class="img-responsive" width="45px"> <strong>BRAINSTERBOX</strong></span>
+            </a>
+            <button type="button" data-toggle="collapse" data-target="#demo" class="btn ml-auto prashalnik"><i class="fas fa-question"></i></button>
+            <h5 class="headlineMeni">МЕНИ</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+          <div class="collapse visina" id="navbarToggleExternalContent">
+            <div class="bg-lightgrey p-4 centarMeni">
+              <ul class="list-group list-group-flush ulMeni">
+                <li class="list-group-item"><a href="https://www.brainster.io/business" target="_blank" class="listItem1">Корпоративни тренинзи</a></li>
+                <li class="list-group-item"><a href="https://brainster.co/courses#!/grid/infinite/throttle:30/threshold:30/" target="_blank" class="listItem2">Курсеви</a></li>
+                <li class="list-group-item"><a href="http://codepreneurs.co/" target="_blank" class="listItem3">Академија за програмирање</a></li>
+                <li class="list-group-item"><a href="https://www.brainster.io/marketpreneurs" target="_blank" class="listItem4">Академија за маркетинг</a></li>
+                <li class="list-group-item"><a href="https://www.brainster.io/akademija-za-dizajn" target="_blank" class="listItem5">Академија за дизајн</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="demo" class="row collapse show violetovaPozadina">
+          <div class="col-xl-12 col-lg-12">
+            <div class="row violetovaPozadinaRow">
+              <div class="col-xl-12 col-lg-12 violetovaPozadinaCol">
+                <h3 class="text-center violetovaPozadinaTitle">BRAINSTERBOX</h3>
+                <p class="text-center violetovaPozadinaBody">Твојата лична кутија со ресурси и алатки за креативна колаборација и откривање на потенцијалот во твојот тим или организација.</p>
+                <div class="row boxItems">
+                  <div class="col-xl-12 col-lg-12 boxItemsRow">
+                    <div class="energija">
+                      <img src="Materijali/01.png" width="100px">
+                      <p><span class="energijaBody1">РАЗДВИЖИ ГО ПРОСТОРОТ СО</span><br><span class="energijaBody2">ЕНЕРГИЈА</span></p>
+                      <hr>
+                      <p class="energijaBody3">Алатки кои ја подигнуваат енергијата меѓу процесите и луѓето преку забава.</p>
+                    </div>
+
+                    <div class="inovacii">
+                      <img src="Materijali/02.png" width="110px">
+                      <p><span class="inovaciiBody1">ОТКЛУЧИ</span><br><span class="inovaciiBody2">ИНОВАЦИИ</span></p>
+                      <hr>
+                      <p class="inovaciiBody3">Алатки за ослободување на креативноста и развивање нови продукти и услуги.</p>
+                    </div>
+
+                    <div class="liderstvo">
+                      <img src="Materijali/03.png" width="100px">
+                      <p><span class="liderstvoBody1">РАЗВИЈ ПЕРСОНАЛНО</span><br><span class="liderstvoBody2">ЛИДЕРСТВО</span></p>
+                      <hr>
+                      <p class="liderstvoBody3">Алатки за персонален развој, самосвест и како да се интегрира постојано учење и раст.</p>
+                    </div>
+
+                    <div class="akcija">
+                      <img src="Materijali/04.png" width="100px">
+                      <p><span class="akcijaBody1">НАПРАВИ ПРОМЕНА ПРЕКУ</span><br><span class="akcijaBody2">АКЦИЈА</span></p>
+                      <hr>
+                      <p class="akcijaBody3">Алатки фокусирани на имплементација, егзекуција <br>и поддршка на промените <br>во тимот.</p>
+                    </div>
+
+                    <div class="tim">
+                      <img src="Materijali/05.png" width="100px">
+                      <p><span class="timBody1">ИЗГРАДИ НЕПОБЕДЛИВ</span><br><span class="timBody2">ТИМ</span></p>
+                      <hr>
+                      <p class="timBody3">Алатки за ефективни тимови-поттикнување доверба и отвореност за поголема соработка.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class=" btn kopcheZapochni" type="button" data-toggle="collapse" data-target="#demo">Започни</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row filtriRow">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 kategorija">
+            <p class="kategorijaText">Пребарајте по Категорија</p>
+            <div class="row kopchinjaRow1">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheEnergija">Енергија <span class="kopcheEnergijaBrojka">(13)</span></button></div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheInovacii">Иновации <span class="kopcheInovaciiBrojka">(15)</span></button></div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheLiderstvo">Лидерство <span class="kopcheLiderstvoBrojka">(12) </span></button></div>
+            </div>
+            <div class="row kopchinjaRow2">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheAkcija">Акција <span class="kopcheAkcijaBrojka">(9)</span></button></div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheTim">Тим <span class="kopcheTimBrojka">(26)</span></button></div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheSite">Сите <span class="kopcheSiteBrojka">(75)</span></button></div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 vremenskaramkaRow">
+            <p class="vremenskaramkaText">Временска рамка (минути)</p>
+            <div class="row prvRed">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche1">5-30</button></div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche2">30-60</button></div>
+            </div>
+            <div class="row vtorRed">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche3">60-120</button></div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche4">120-240</button></div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 grupaRow">
+            <p class="grupaText">Големина на група</p>
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche1">2-10</button></div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche2">10-40</button></div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche3">40+</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row kartickiRow">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <p class="text-right preporakaText"><a href="#chetiriKartickiRow" class="preporakaTextLink">Препорачани од нашиот тим</a></p>
+            <div class="row kartickiPrvRow">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 prvo">
+                <div class="prvoPrvo">
+                  <img src="Materijali/energija/01.png" alt="helloKitty" class="img-fluid" width="200px">
+                  <h4 class="prvoHead">Hello Kitty</h4>
+                  <p class="prvoBold">ЕНЕРГИЈА</p>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 vtoro">
+                <div class="vtoroVtoro">
+                  <img src="Materijali/energija/2.png" alt="Dance, Dance, Dance" class="img-fluid" width="200px">
+                  <h4 class="vtoroHead">Dance, Dance, Dance</h4>
+                  <p class="vtoroBold">ЕНЕРГИЈА</p>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 treto">
+                <div class="tretoTreto">
+                  <img src="Materijali/energija/3.png" alt="Bang" class="img-fluid" width="200px">
+                  <h4 class="tretoHead">Bang</h4>
+                  <p class="tretoBold">ЕНЕРГИЈА</p>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 cetvrto">
+                <div class="cetvrtoCetvrto">
+                  <img src="Materijali/energija/4.png" alt="I love you honey" class="img-fluid" width="200px">
+                  <h4 class="cetvrtoHead">I love you honey</h4>
+                  <p class="cetvrtoBold">ЕНЕРГИЈА</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row kartickiVtorRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 petto">
+                  <div class="pettoPetto">
+                    <img src="Materijali/energija/5.png" alt="Human Machine" class="img-fluid" width="200px">
+                    <h4 class="pettoHead">Human Machine</h4>
+                    <p class="pettoBold">ЕНЕРГИЈА</p>
+                  </div>
+                </div>
+  
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 shesto">
+                  <div class="shestoShesto">
+                    <img src="Materijali/energija/6.png" alt="Love your neighbour" class="img-fluid" width="200px">
+                    <h4 class="shestoHead">Love your neighbour</h4>
+                    <p class="shestoBold">ЕНЕРГИЈА</p>
+                  </div>
+                </div>
+  
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 sedmo">
+                  <div class="sedmoSedmo">
+                    <img src="Materijali/energija/7.png" alt="Тhe shouting game" class="img-fluid" width="200px">
+                    <h4 class="sedmoHead">Тhe shouting game</h4>
+                    <p class="sedmoBold">ЕНЕРГИЈА</p>
+                  </div>
+                </div>
+  
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 osmo">
+                  <div class="osmoOsmo">
+                    <img src="Materijali/energija/8.png" alt="What are you doing" class="img-fluid" width="200px">
+                    <h4 class="osmoHead">What are you doing</h4>
+                    <p class="osmoBold">ЕНЕРГИЈА</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickiTretRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 deveto">
+                  <div class="devetoDeveto">
+                    <img src="Materijali/energija/9.png" alt="Mazunga" class="img-fluid" width="200px">
+                    <h4 class="devetoHead">Mazunga</h4>
+                    <p class="devetoBold">ЕНЕРГИЈА</p>
+                  </div>
+                </div>
+    
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 deseto">
+                  <div class="desetoDeseto">
+                    <img src="Materijali/energija/10.png" alt="Sync Claps" class="img-fluid" width="200px">
+                    <h4 class="desetoHead">Sync Claps</h4>
+                    <p class="desetoBold">ЕНЕРГИЈА</p>
+                  </div>
+                </div>
+    
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 edinaeseto">
+                  <div class="edinaesetoEdinaeseto">
+                    <img src="Materijali/energija/11.png" alt="Shake Down" class="img-fluid" width="200px">
+                    <h4 class="edinaesetoHead">Shake Down</h4>
+                    <p class="edinaesetoBold">ЕНЕРГИЈА</p>
+                  </div>
+                </div>
+    
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvanaeseto">
+                  <div class="dvanaesetoDvanaeseto">
+                    <img src="Materijali/inovacii/1.png" alt="Тhe 5 Whys" class="img-fluid" width="200px">
+                    <h4 class="dvanaesetoHead">Тhe 5 Whys</h4>
+                    <p class="dvanaesetoBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickiCetvrtRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 trinaeseto">
+                  <div class="trinaesetoTrinaeseto">
+                    <img src="Materijali/inovacii/2.png" alt="Diffusion Curve Reflection" class="img-fluid" width="200px">
+                    <h5 class="trinaesetoHead">Diffusion Curve Reflection</h5>
+                    <p class="trinaesetoBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+      
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetirinaeseto">
+                  <div class="chetirinaesetoChetirinaeseto">
+                    <img src="Materijali/inovacii/3.png" alt="Future Trends" class="img-fluid" width="200px">
+                    <h4 class="chetirinaesetoHead">Future Trends</h4>
+                    <p class="chetirinaesetoBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+      
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 petnaeseto">
+                  <div class="petnaesetoPetnaeseto">
+                    <img src="Materijali/inovacii/4.png" alt="Story Building" class="img-fluid" width="200px">
+                    <h4 class="petnaesetoHead">Story Building</h4>
+                    <p class="petnaesetoBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+      
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 shesnaeseto">
+                  <div class="shesnaesetoShesnaeseto">
+                    <img src="Materijali/inovacii/5.png" alt="Тake a Stand" class="img-fluid" width="200px">
+                    <h4 class="shesnaesetoHead">Тake a Stand</h4>
+                    <p class="shesnaesetoBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickiPettiRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 sedumnaeset">
+                  <div class="sedumnaesetSedumnaeset">
+                    <img src="Materijali/inovacii/6.png" alt="Rapid Research" class="img-fluid" width="200px">
+                    <h5 class="sedumnaesetHead">Rapid Research</h5>
+                    <p class="sedumnaesetBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+        
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 osumnaeset">
+                  <div class="osumnaesetOsumnaeset">
+                    <img src="Materijali/inovacii/7.png" alt="User Day-parting" class="img-fluid" width="200px">
+                    <h4 class="osumnaesetHead">User Day-parting</h4>
+                    <p class="osumnaesetBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+        
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 devetnaeset">
+                  <div class="devetnaesetDevetnaeset">
+                    <img src="Materijali/inovacii/8.png" alt="Exploring Client Centricity" class="img-fluid" width="200px">
+                    <h5 class="devetnaesetHead">Exploring Client Centricity</h5>
+                    <p class="devetnaesetBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+        
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaeset">
+                  <div class="dvaesetDvaeset">
+                    <img src="Materijali/inovacii/9.png" alt="Lorem ipsum" class="img-fluid" width="200px">
+                    <h4 class="dvaesetHead">Lorem Ipsum</h4>
+                    <p class="dvaesetBold">ИНОВАЦИИ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickiShestiRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetieden">
+                  <div class="dvaesetiedenDvaesetieden">
+                    <img src="Materijali/liderstvo/01.png" alt="Аctive Listening" class="img-fluid" width="200px">
+                    <h4 class="dvaesetiedenHead">Аctive Listening</h4>
+                    <p class="dvaesetiedenBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+          
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetidva">
+                  <div class="dvaesetidvaDvaesetidva">
+                    <img src="Materijali/liderstvo/02.png" alt="Stinky Fish" class="img-fluid" width="200px">
+                    <h4 class="dvaesetidvaHead">Stinky Fish</h4>
+                    <p class="dvaesetidvaBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+          
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetitri">
+                  <div class="dvaesetitriDvaesetitri">
+                    <img src="Materijali/liderstvo/03.png" alt="Feedback: I appreciate" class="img-fluid" width="200px">
+                    <h5 class="dvaesetitriHead">Feedback: I appreciate</h5>
+                    <p class="dvaesetitriBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+          
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetichetiri">
+                  <div class="dvaesetichetiriDvaesetichetiri">
+                    <img src="Materijali/liderstvo/04.png" alt="Explore your values" class="img-fluid" width="200px">
+                    <h4 class="dvaesetichetiriHead">Explore your values</h4>
+                    <p class="dvaesetichetiriBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickiSedmiRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetipet">
+                  <div class="dvaesetipetDvaesetipet">
+                    <img src="Materijali/liderstvo/05.png" alt="Personal SWOB Assesment" class="img-fluid" width="200px">
+                    <h5 class="dvaesetipetHead">Personal SWOB Assesment</h5>
+                    <p class="dvaesetipetBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+            
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetishest">
+                  <div class="dvaesetishestDvaesetishest">
+                    <img src="Materijali/liderstvo/06.png" alt="Reflection Individual" class="img-fluid" width="200px">
+                    <h4 class="dvaesetishestHead">Reflection Individual</h4>
+                    <p class="dvaesetishestBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+            
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetisedum">
+                  <div class="dvaesetisedumDvaesetisedum">
+                    <img src="Materijali/liderstvo/07.png" alt="Back-turned Feedback" class="img-fluid" width="200px">
+                    <h4 class="dvaesetisedumHead">Back-turned Feedback</h4>
+                    <p class="dvaesetisedumBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+            
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetiosum">
+                  <div class="dvaesetiosumDvaesetiosum">
+                    <img src="Materijali/liderstvo/8.png" alt="Feedback Map" class="img-fluid" width="200px">
+                    <h4 class="dvaesetiosumHead">Feedback Map</h4>
+                    <p class="dvaesetiosumBold">ЛИДЕРСТВО</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickiOsmiRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 dvaesetidevet">
+                  <div class="dvaesetidevetDvaesetidevet">
+                    <img src="Materijali/akcii/1.png" alt="Dotmocracy" class="img-fluid" width="200px">
+                    <h4 class="dvaesetidevetHead">Dotmocracy</h4>
+                    <p class="dvaesetidevetBold">АКЦИИ</p>
+                  </div>
+                </div>
+              
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 trieset">
+                  <div class="triesetTrieset">
+                    <img src="Materijali/akcii/2.png" alt="Parking Lot" class="img-fluid" width="200px">
+                    <h4 class="triesetHead">Parking Lot</h4>
+                    <p class="triesetBold">АКЦИИ</p>
+                  </div>
+                </div>
+              
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetieden">
+                  <div class="triesetiedenTriesetieden">
+                    <img src="Materijali/akcii/3.png" alt="IDOARRT Meeting Design" class="img-fluid" width="200px">
+                    <h5 class="triesetiedenHead">IDOARRT Meeting Design</h5>
+                    <p class="triesetiedenBold">АКЦИИ</p>
+                  </div>
+                </div>
+              
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetidva">
+                  <div class="triesetidvaTriesetidva">
+                    <img src="Materijali/akcii/4.png" alt="Project Mid-way Evaluation" class="img-fluid" width="200px">
+                    <h5 class="triesetidvaHead">Project Mid-way Evaluation</h5>
+                    <p class="triesetidvaBold">АКЦИИ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickidevetiRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetitri">
+                  <div class="triesetitriTriesetitri">
+                    <img src="Materijali/akcii/5.png" alt="3 Action Steps" class="img-fluid" width="200px">
+                    <h4 class="triesetitriHead">3 Action Steps</h4>
+                    <p class="triesetitriBold">АКЦИИ</p>
+                  </div>
+                </div>
+                
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetichetiri">
+                  <div class="triesetichetiriTriesetichetiri">
+                    <img src="Materijali/akcii/6.png" alt="Project Point of Departure" class="img-fluid" width="200px">
+                    <h5 class="triesetichetiriHead">Project Point of Departure</h5>
+                    <p class="triesetichetiriBold">АКЦИИ</p>
+                  </div>
+                </div>
+                
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetipet">
+                  <div class="triesetipetTriesetipet">
+                    <img src="Materijali/akcii/7.png" alt="Letter to Myself" class="img-fluid" width="200px">
+                    <h4 class="triesetipetHead">Letter to Myself</h4>
+                    <p class="triesetipetBold">АКЦИИ</p>
+                  </div>
+                </div>
+                
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetishest">
+                  <div class="triesetishestTriesetishest">
+                    <img src="Materijali/akcii/8.png" alt="Project Wrap-up" class="img-fluid" width="200px">
+                    <h4 class="triesetishestHead">Project Wrap-up</h4>
+                    <p class="triesetishestBold">АКЦИИ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickidesetiRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetisedum">
+                  <div class="triesetisedumTriesetisedum">
+                    <img src="Materijali/tim/1.png" alt="Conflict Responses" class="img-fluid" width="200px">
+                    <h4 class="triesetisedumHead">Conflict Responses</h4>
+                    <p class="triesetisedumBold">ТИМ</p>
+                  </div>
+                </div>
+                  
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetiosum">
+                  <div class="triesetiosumTriesetiosum">
+                    <img src="Materijali/tim/2.png" alt="Myers-Briggs Team Reflection" class="img-fluid" width="200px">
+                    <h5 class="triesetiosumHead">Myers-Briggs Team Reflection</h5>
+                    <p class="triesetiosumBold">ТИМ</p>
+                  </div>
+                </div>
+                  
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 triesetidevet">
+                  <div class="triesetidevetTriesetidevet">
+                    <img src="Materijali/tim/3.png" alt="Rollercoaster Check-In" class="img-fluid" width="200px">
+                    <h4 class="triesetidevetHead">Rollercoaster Check-In</h4>
+                    <p class="triesetidevetBold">ТИМ</p>
+                  </div>
+                </div>
+                  
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetirieset">
+                  <div class="chetiriesetChetirieset">
+                    <img src="Materijali/tim/4.png" alt="Personal Presentations" class="img-fluid" width="200px">
+                    <h4 class="chetiriesetHead">Personal Presentations</h4>
+                    <p class="chetiriesetBold">ТИМ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row kartickiedinaestiRow">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetiriesetieden">
+                  <div class="chetiriesetiedenChetiriesetieden">
+                    <img src="Materijali/tim/5.png" alt="Аppreciation Train" class="img-fluid" width="200px">
+                    <h4 class="chetiriesetiedenHead">Аppreciation Train</h4>
+                    <p class="chetiriesetiedenBold">ТИМ</p>
+                  </div>
+                </div>
+                    
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetiriesetidva">
+                  <div class="chetiriesetidvaChetiriesetidva">
+                    <img src="Materijali/tim/6.png" alt="Three Question Mingle" class="img-fluid" width="200px">
+                    <h5 class="chetiriesetidvaHead">Three Question Mingle</h5>
+                    <p class="chetiriesetidvaBold">ТИМ</p>
+                  </div>
+                </div>
+                    
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetiriesetitri">
+                  <div class="chetiriesetitriChetiriesetitri">
+                    <img src="Materijali/tim/7.png" alt="Portrait Gallery" class="img-fluid" width="200px">
+                    <h4 class="chetiriesetitriHead">Portrait Gallery</h4>
+                    <p class="chetiriesetitriBold">ТИМ</p>
+                  </div>
+                </div>
+                    
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetiriesetichetiri">
+                  <div class="chetiriesetichetiriChetiriesetichetiri">
+                    <img src="Materijali/tim/8.png" alt="Circles of influence" class="img-fluid" width="200px">
+                    <h4 class="chetiriesetichetiriHead">Circles of influence</h4>
+                    <p class="chetiriesetichetiriBold">ТИМ</p>
+                  </div>
+                </div>
+              </div>
+
+              <p class="dolePreporakaText">Препорачани од нашиот тим</p>
+              <div class="row chetiriKartickiRow" id="chetiriKartickiRow">
+                <div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 prvaKarticka">
+                    <div class="card prvaKartickaKarticka" style="width: 15.93rem;">
+                      <img class="card-img-top" src="Materijali/energija/9.png" alt="Mazunga" class="img-fluid" width="200px">
+                      <div class="card-body prvaKartickaBody">
+                        <p class="prvaKartickaMalTitle">ЕНЕРГИЈА</p>
+                        <h5 class="prvaKartickaTitle">Mazunga</h5>
+                        <p class="prvaKartickaBody">Овој брз и гласен energizer е многу ефикасен за зголемување на енергијата на групата за многу краток временски период...</p>
+                        <a href="#" class="btn btn-block prvaKartickaKopche">Дознај повеќе</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 vtoraKarticka">
+                    <div class="card vtoraKartickaKarticka" style="width: 15.93rem;">
+                      <img class="card-img-top" src="Materijali/inovacii/1.png" alt="Тhe 5 Whys" class="img-fluid" width="200px">
+                      <div class="card-body vtoraKartickaBody">
+                        <p class="vtoraKartickaMalTitle">ИНОВАЦИИ</p>
+                        <h5 class="vtoraKartickaTitle">Тhe 5 Whys</h5>
+                        <p class="vtoraKartickaBody">Овој едноставен и моќен метод е корисен за откривање на јадрото на проблемот или предизвикот...</p>
+                        <a href="#" class="btn btn-block vtoraKartickaKopche">Дознај повеќе</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 tretaKarticka">
+                    <div class="card tretaKartickaKarticka" style="width: 15.93rem;">
+                      <img class="card-img-top" src="Materijali/liderstvo/03.png" alt="Feedback: I appreciate" class="img-fluid" width="200px">
+                      <div class="card-body tretaKartickaBody">
+                        <p class="tretaKartickaMalTitle">ЛИДЕРСТВО</p>
+                        <h5 class="tretaKartickaTitle">Feedback: I appreciate</h5>
+                        <p class="tretaKartickaBody">Редовен и ефективен фидбек е еден од најважните состојки во градењето конструктивни односи...</p>
+                        <a href="#" class="btn btn-block tretaKartickaKopche">Дознај повеќе</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetvrtaKarticka">
+                    <div class="card chetvrtaKartickaKarticka" style="width: 15.93rem;">
+                      <img class="card-img-top" src="Materijali/tim/1.png" alt="Conflict Responses" class="img-fluid" width="200px">
+                      <div class="card-body chetvrtaKartickaBody">
+                        <p class="chetvrtaKartickaMalTitle">ТИМ</p>
+                        <h5 class="chetvrtaKartickaTitle">Conflict Responses</h5>
+                        <p class="chetvrtaKartickaBody">Работилница за тим кој ќе размислува за минатите конфликти и ги користи за да генерира насоки за ефикасно...</p>
+                        <a href="#" class="btn btn-block chetvrtaKartickaKopche">Дознај повеќе</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offet-1 footerCol">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxOne">
+              <h3 class="footerPrvTitle">Brainster Box</h3>
+              <p>Brainster Box е ресурс за секој што сака да ги направи работите покреативни и поефикасни во својот тим или компанија.</p>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxTwo">
+              <h3 class="footerPrvTitle">За нас</h3>
+              <p>Brainster е иновативно компанија за едукација која комбинира врвен наставен план, експертиза и ефективна стратегија за обучување на компании и индивидуалци.</p>
+            </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxThree">
+                <h3 class="footerPrvTitle">Продукти на Brainster</h3>
+                <ul>
+                  <li>Корпоративни тренинзи</li>
+                  <li>Курсеви</li>
+                  <li>Академија за програмирање</li>
+                  <li>Академија за маркетинг</li>
+                  <li>Академија за дизајн</li>
+                </ul>
+                <!-- <div class="socialMedia"> -->
+                  <img src="Materijali/footer/instagram.png" alt="instagram" width="25px;" class="float-right img-fluid instaIkona">
+                  <img src="Materijali/footer/twitter.png" alt="twitter" width="25px;" class="float-right img-fluid twitIkona">
+                  <img src="Materijali/footer/linkedin.png" alt="linkedin" width="25px;" class="float-right img-fluid linkedinIkona">
+                  <img src="Materijali/footer/facebook.png" alt="facebook" width="25px;" class="float-right img-fluid facebIkona">
+                <!-- </div> -->
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="tretProekt.js"></script>
+  </body>
+</html>

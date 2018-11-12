@@ -1,0 +1,2284 @@
+/* body{
+    height: 250px;
+} */
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    padding: 11px;
+    right: 120px;
+    z-index: 99;
+    border: 1px solid #562894;
+    background-color: white;
+    color: #562894;
+}
+  
+#myBtn:hover {
+    font-weight: 500;
+    border: 2px solid;
+}
+
+.centarMeni{
+    text-align: center;
+    height: 100%;
+}
+
+.prashalnik{
+    padding: 5px 9px;
+    margin-right: 10px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+}
+
+.headlineMeni{
+    padding-right: 10px;
+    margin: 0%;
+    margin-bottom: 0%;
+    font-weight: 600;
+}
+
+.ulMeni :hover{
+    text-decoration: none;
+}
+
+.listItem1 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem2 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem3 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem4 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem5 {
+    text-decoration: none;
+    color:black;
+}
+
+.violetovaPozadina{
+    background-color: #562894;
+    
+}
+
+.violetovaPozadinaTitle{
+    color: white;
+    padding-top: 20px;
+}
+
+.violetovaPozadinaBody{
+    color: white;
+    padding-top: 20px;
+}
+
+.violetovaPozadinaCol{
+    text-align: center;
+}
+
+.boxItemsRow{
+    display: flex;
+}
+
+.energija{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.energija img{
+    padding-bottom: 40px;
+}
+
+.energijaBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.energijaBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.energija hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.energijaBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.inovacii{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.inovacii img{
+    padding-bottom: 31px;
+}
+
+.inovaciiBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.inovaciiBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.inovacii hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.inovaciiBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.liderstvo{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.liderstvo img{
+    padding-bottom: 40px;
+}
+
+.liderstvoBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.liderstvoBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.liderstvo hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.liderstvoBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.akcija{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.akcija img{
+    padding-bottom: 40px;
+}
+
+.akcijaBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.akcijaBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.akcija hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.akcijaBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.tim{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.tim img{
+    padding-bottom: 40px;
+}
+
+.timBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.timBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.tim hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.timBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.kopcheZapochni{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 11px 101px;
+    font-size: 21px;
+    margin: 35px 0px 55px 0px;
+
+}
+
+
+/* FILTERI */
+
+
+.filtriRow{
+    background-color: #f3f3f3;
+    margin-top: 20px;
+}
+
+.kategorija{
+    padding-bottom: 15px;
+}
+
+.kategorijaText{
+    margin:0%;
+    padding: 10px 0px 13px 0px;
+}
+
+.kopcheEnergija{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.kopcheEnergijaBrojka{
+    color: #bd9ade;
+}
+
+.kopcheEnergija:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.kopcheInovacii{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.kopcheInovaciiBrojka{
+    color: #bd9ade;
+}
+
+.kopcheInovacii:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.kopcheLiderstvo{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.kopcheLiderstvoBrojka{
+    color: #bd9ade;
+}
+
+.kopcheLiderstvo:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.kopchinjaRow2{
+    padding-top: 15px;
+}
+
+.kopcheAkcija{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.kopcheAkcijaBrojka{
+    color: #bd9ade;
+}
+
+.kopcheAkcija:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.kopcheTim{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.kopcheTimBrojka{
+    color: #bd9ade;
+}
+
+.kopcheTim:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.kopcheSite{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.kopcheSiteBrojka{
+    color: #bd9ade;
+}
+
+.kopcheSite:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.vremenskaramkaText{
+    margin:0%;
+    padding: 10px 0px 13px 0px;
+}
+
+.vtorRed{
+    padding-top: 15px;
+}
+
+.vremeKopche1{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.vremeKopche1:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.vremeKopche2{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.vremeKopche2:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.vremeKopche3{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.vremeKopche3:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.vremeKopche4{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.vremeKopche4:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.grupaText{
+    margin:0%;
+    padding: 10px 0px 13px 0px;
+}
+
+.grupaKopche1{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.grupaKopche1:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.grupaKopche2{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.grupaKopche2:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+.grupaKopche3{
+    background: white;;
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+.grupaKopche3:hover{
+    background-color: #562894;
+    border: none;
+    color: white;
+}
+
+
+/* FILTERI */
+
+
+/* KARTICKI */
+
+/* .preporakaText{
+    text-decoration: none;
+} */
+
+.preporakaTextLink{
+    text-decoration: none;
+    /* color: black; */
+    color: #562894;
+    font-weight: 500;
+}
+
+.preporakaTextLink:hover{
+    text-decoration: none;
+}
+
+.kartickiRow{
+    margin-top: 20px;
+}
+
+/* prvo */
+
+.prvoPrvo{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.prvoPrvo:hover{
+    border: 3px solid #562894;
+}
+
+.prvoHead{
+    padding-top: 15px;
+}
+
+.prvoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* prvo */
+
+
+/* vtoro */
+
+.vtoroVtoro{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.vtoroVtoro:hover{
+    border: 3px solid #562894;
+}
+
+.vtoroHead{
+    padding-top: 15px;
+}
+
+.vtoroBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* vtoro */
+
+
+/* treto */
+
+.tretoTreto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tretoTreto:hover{
+    border: 3px solid #562894;
+}
+
+.tretoHead{
+    padding-top: 15px;
+}
+
+.tretoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* treto */
+
+
+/* cetvrto */
+
+.cetvrtoCetvrto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cetvrtoCetvrto:hover{
+    border: 3px solid #562894;
+}
+
+.cetvrtoHead{
+    padding-top: 15px;
+}
+
+.cetvrtoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* cetvrto */
+
+.kartickiVtorRow{
+    padding-top: 25px;
+}
+
+/* petto */
+
+.pettoPetto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pettoPetto:hover{
+    border: 3px solid #562894;
+}
+
+.pettoHead{
+    padding-top: 15px;
+}
+
+.pettoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* petto */
+
+
+/* shesto */
+
+.shestoShesto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.shestoShesto:hover{
+    border: 3px solid #562894;
+}
+
+.shestoHead{
+    padding-top: 15px;
+}
+
+.shestoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* shesto */
+
+
+/* sedmo */
+
+.sedmoSedmo{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sedmoSedmo:hover{
+    border: 3px solid #562894;
+}
+
+.sedmoHead{
+    padding-top: 15px;
+}
+
+.sedmoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* sedmo */
+
+
+/* osmo */
+
+.osmoOsmo{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.osmoOsmo:hover{
+    border: 3px solid #562894;
+}
+
+.osmoHead{
+    padding-top: 15px;
+}
+
+.osmoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* osmo */
+
+.kartickiTretRow{
+    padding-top: 25px;
+}
+
+/* deveto */
+
+.devetoDeveto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.devetoDeveto:hover{
+    border: 3px solid #562894;
+}
+
+.devetoHead{
+    padding-top: 15px;
+}
+
+.devetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* deveto */
+
+
+/* deseto */
+
+.desetoDeseto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.desetoDeseto:hover{
+    border: 3px solid #562894;
+}
+
+.desetoHead{
+    padding-top: 15px;
+}
+
+.desetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* deseto */
+
+
+/* edinaeseto */
+
+.edinaesetoEdinaeseto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.edinaesetoEdinaeseto:hover{
+    border: 3px solid #562894;
+}
+
+.edinaesetoHead{
+    padding-top: 15px;
+}
+
+.edinaesetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* edinaeseto */
+
+
+/* dvanaeseto */
+
+.dvanaesetoDvanaeseto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvanaesetoDvanaeseto:hover{
+    border: 3px solid #562894;
+}
+
+.dvanaesetoHead{
+    padding-top: 15px;
+}
+
+.dvanaesetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvanaeseto */
+
+.kartickiCetvrtRow{
+    padding-top: 25px;
+}
+
+/* trinaeseto */
+
+.trinaesetoTrinaeseto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trinaesetoTrinaeseto:hover{
+    border: 3px solid #562894;
+}
+
+.trinaesetoHead{
+    padding-top: 15px;
+}
+
+.trinaesetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* trinaeseto */
+
+
+/* chetirinaeseto */
+
+.chetirinaesetoChetirinaeseto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chetirinaesetoChetirinaeseto:hover{
+    border: 3px solid #562894;
+}
+
+.chetirinaesetoHead{
+    padding-top: 15px;
+}
+
+.chetirinaesetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* chetirinaeseto */
+
+
+/* petnaeseto */
+
+.petnaesetoPetnaeseto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.petnaesetoPetnaeseto:hover{
+    border: 3px solid #562894;
+}
+
+.petnaesetoHead{
+    padding-top: 15px;
+}
+
+.petnaesetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* petnaeseto */
+
+
+/* shesnaeseto */
+
+.shesnaesetoShesnaeseto{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.shesnaesetoShesnaeseto:hover{
+    border: 3px solid #562894;
+}
+
+.shesnaesetoHead{
+    padding-top: 15px;
+}
+
+.shesnaesetoBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* shesnaeseto */
+
+.kartickiPettiRow{
+    padding-top: 25px;
+}
+
+/* sedumnaeset */
+
+.sedumnaesetSedumnaeset{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sedumnaesetSedumnaeset:hover{
+    border: 3px solid #562894;
+}
+
+.sedumnaesetHead{
+    padding-top: 15px;
+}
+
+.sedumnaesetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* sedumnaeset */
+
+
+/* osumnaeset */
+
+.osumnaesetOsumnaeset{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.osumnaesetOsumnaeset:hover{
+    border: 3px solid #562894;
+}
+
+.osumnaesetHead{
+    padding-top: 15px;
+}
+
+.osumnaesetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* osumnaeset */
+
+
+/* devetnaeset */
+
+.devetnaesetDevetnaeset{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.devetnaesetDevetnaeset:hover{
+    border: 3px solid #562894;
+}
+
+.devetnaesetHead{
+    padding-top: 15px;
+}
+
+.devetnaesetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* devetnaeset */
+
+
+/* dvaeset */
+
+.dvaesetDvaeset{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetDvaeset:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetHead{
+    padding-top: 15px;
+}
+
+.dvaesetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaeset */
+
+.kartickiShestiRow{
+    padding-top: 25px;
+}
+
+/* dvaesetieden */
+
+.dvaesetiedenDvaesetieden{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetiedenDvaesetieden:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetiedenHead{
+    padding-top: 15px;
+}
+
+.dvaesetiedenBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetieden */
+
+
+/* dvaesetidva */
+
+.dvaesetidvaDvaesetidva{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetidvaDvaesetidva:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetidvaHead{
+    padding-top: 15px;
+}
+
+.dvaesetidvaBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetidva */
+
+
+/* dvaesetitri */
+
+.dvaesetitriDvaesetitri{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetitriDvaesetitri:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetitriHead{
+    padding-top: 15px;
+}
+
+.dvaesetitriBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetitri */
+
+
+/* dvaesetichetiri */
+
+.dvaesetichetiriDvaesetichetiri{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetichetiriDvaesetichetiri:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetichetiriHead{
+    padding-top: 15px;
+}
+
+.dvaesetichetiriBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetichetiri */
+
+.kartickiSedmiRow{
+    padding-top: 25px;
+}
+
+/* dvaesetipet */
+
+.dvaesetipetDvaesetipet{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetipetDvaesetipet:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetipetHead{
+    padding-top: 15px;
+}
+
+.dvaesetipetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetipet */
+
+
+/* dvaesetishest */
+
+.dvaesetishestDvaesetishest{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetishestDvaesetishest:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetishestHead{
+    padding-top: 15px;
+}
+
+.dvaesetishestBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetishest */
+
+
+/* dvaesetisedum */
+
+.dvaesetisedumDvaesetisedum{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetisedumDvaesetisedum:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetisedumHead{
+    padding-top: 15px;
+}
+
+.dvaesetisedumBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetisedum */
+
+
+/* dvaesetiosum */
+
+.dvaesetiosumDvaesetiosum{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetiosumDvaesetiosum:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetiosumHead{
+    padding-top: 15px;
+}
+
+.dvaesetiosumBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetiosum */
+
+
+.kartickiOsmiRow{
+    padding-top: 25px;
+}
+
+
+/* dvaesetidevet */
+
+.dvaesetidevetDvaesetidevet{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dvaesetidevetDvaesetidevet:hover{
+    border: 3px solid #562894;
+}
+
+.dvaesetidevetHead{
+    padding-top: 15px;
+}
+
+.dvaesetidevetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* dvaesetidevet */
+
+
+/* trieset */
+
+.triesetTrieset{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetTrieset:hover{
+    border: 3px solid #562894;
+}
+
+.triesetHead{
+    padding-top: 15px;
+}
+
+.triesetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* trieset */
+
+
+/* triesetieden */
+
+.triesetiedenTriesetieden{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetiedenTriesetieden:hover{
+    border: 3px solid #562894;
+}
+
+.triesetiedenHead{
+    padding-top: 15px;
+}
+
+.triesetiedenBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* triesetieden */
+
+
+/* triesetidva */
+
+.triesetidvaTriesetidva{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetidvaTriesetidva:hover{
+    border: 3px solid #562894;
+}
+
+.triesetidvaHead{
+    padding-top: 15px;
+}
+
+.triesetidvaBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* triesetidva */
+
+
+.kartickidevetiRow{
+    padding-top: 25px;
+}
+
+
+/* triesetitri */
+
+.triesetitriTriesetitri{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetitriTriesetitri:hover{
+    border: 3px solid #562894;
+}
+
+.triesetitriHead{
+    padding-top: 15px;
+}
+
+.triesetitriBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* triesetitri */
+
+
+/* triesetichetiri */
+
+.triesetichetiriTriesetichetiri{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetichetiriTriesetichetiri:hover{
+    border: 3px solid #562894;
+}
+
+.triesetichetiriHead{
+    padding-top: 15px;
+}
+
+.triesetichetiriBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* triesetichetiri */
+
+
+/* triesetipet */
+
+.triesetipetTriesetipet{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetipetTriesetipet:hover{
+    border: 3px solid #562894;
+}
+
+.triesetipetHead{
+    padding-top: 15px;
+}
+
+.triesetipetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* triesetipet */
+
+
+/* triesetishest */
+
+.triesetishestTriesetishest{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetishestTriesetishest:hover{
+    border: 3px solid #562894;
+}
+
+.triesetishestHead{
+    padding-top: 15px;
+}
+
+.triesetishestBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+/* triesetishest */
+
+
+.kartickidesetiRow{
+    padding-top: 25px;
+}
+
+
+/* triesetisedum */
+
+
+.triesetisedumTriesetisedum{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetisedumTriesetisedum:hover{
+    border: 3px solid #562894;
+}
+
+.triesetisedumHead{
+    padding-top: 15px;
+}
+
+.triesetisedumBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* triesetisedum */
+
+
+/* triesetiosum */
+
+
+.triesetiosumTriesetiosum{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetiosumTriesetiosum:hover{
+    border: 3px solid #562894;
+}
+
+.triesetiosumHead{
+    padding-top: 22px;
+    font-size: 18px;
+
+}
+
+.triesetiosumBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* triesetiosum */
+
+
+/* triesetidevet */
+
+
+.triesetidevetTriesetidevet{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.triesetidevetTriesetidevet:hover{
+    border: 3px solid #562894;
+}
+
+.triesetidevetHead{
+    padding-top: 15px;
+}
+
+.triesetidevetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* triesetidevet */
+
+
+/* chetirieset */
+
+
+.chetiriesetChetirieset{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chetiriesetChetirieset:hover{
+    border: 3px solid #562894;
+}
+
+.chetiriesetHead{
+    padding-top: 15px;
+}
+
+.chetiriesetBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* chetirieset */
+
+
+.kartickiedinaestiRow{
+    padding-top: 25px;
+}
+
+
+/* chetiriesetieden */
+
+
+.chetiriesetiedenChetiriesetieden{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chetiriesetiedenChetiriesetieden:hover{
+    border: 3px solid #562894;
+}
+
+.chetiriesetiedenHead{
+    padding-top: 15px;
+}
+
+.chetiriesetiedenBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* chetiriesetieden */
+
+
+/* chetiriesetidva */
+
+
+.chetiriesetidvaChetiriesetidva{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chetiriesetidvaChetiriesetidva:hover{
+    border: 3px solid #562894;
+}
+
+.chetiriesetidvaHead{
+    padding-top: 19px;
+}
+
+.chetiriesetidvaBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* chetiriesetidva */
+
+
+/* chetiriesetitri */
+
+
+.chetiriesetitriChetiriesetitri{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chetiriesetitriChetiriesetitri:hover{
+    border: 3px solid #562894;
+}
+
+.chetiriesetitriHead{
+    padding-top: 19px;
+}
+
+.chetiriesetitriBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* chetiriesetitri */
+
+
+/* chetiriesetichetiri */
+
+
+.chetiriesetichetiriChetiriesetichetiri{
+    border: 1px solid #562894;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chetiriesetichetiriChetiriesetichetiri:hover{
+    border: 3px solid #562894;
+}
+
+.chetiriesetichetiriHead{
+    padding-top: 19px;
+}
+
+.chetiriesetichetiriBold{
+    font-weight: 700;
+    color: #562894;
+    padding-top: 5px;
+}
+
+
+/* chetiriesetichetiri */
+
+/* KARTICKI */
+
+
+/* CHETIRI KARTICKI */
+
+
+/* .chetiriKartickiRow{
+    
+} */
+
+.dolePreporakaText{
+    font-weight: 500;
+    color: #562894;
+    margin: 0%;
+    padding-top: 35px;
+    padding-bottom: 15px; 
+}
+
+
+/* prva karticka */
+
+
+.prvaKartickaKarticka{
+    /* border: 1px solid black; */
+}
+
+.prvaKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.prvaKartickaKarticka:hover .prvaKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.prvaKartickaBody{
+    padding-top: 0%;
+}
+
+.prvaKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.prvaKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+
+/* prva karticka */
+
+
+/* vtora karticka */
+
+.vtoraKartickaKarticka{
+    /* border: 1px solid black; */
+}
+
+.vtoraKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.vtoraKartickaKarticka:hover .vtoraKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.vtoraKartickaBody{
+    padding-top: 0%;
+}
+
+.vtoraKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.vtoraKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+/* vtora karticka */
+
+
+/* treta karticka */
+
+.tretaKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.tretaKartickaKarticka:hover .tretaKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.tretaKartickaBody{
+    padding-top: 0%;
+}
+
+.tretaKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.tretaKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+/* treta karticka */
+
+
+/* chetvrta karticka */
+
+.chetvrtaKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.chetvrtaKartickaKarticka:hover .chetvrtaKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.chetvrtaKartickaBody{
+    padding-top: 0%;
+}
+
+.chetvrtaKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.chetvrtaKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+/* chetvrta karticka */
+
+
+/* CHETIRI KARTICKI */
+
+
+/* FOOTER */
+
+
+.footer{
+    background-color: #562894;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+.boxOne{
+    color: white;
+}
+
+.footerPrvTitle{
+    padding-top: 15px;
+}
+
+.boxTwo{
+    color: white;
+}
+
+.boxThree{
+    color: white;
+    padding-bottom: 50px;
+}
+
+.boxThree ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+.instaIkona{
+    margin-right: 210px;
+    margin-top: 50px;
+}
+
+.twitIkona{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.linkedinIkona{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.facebIkona{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.socialMedia{
+    margin-top: 50px;
+    margin-right: 190px;
+}
+
+/* FOOTER */
+
+
+/* MEDIA QUERY */
+
+
+/* 992px - 1199.98px */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .instaIkona{
+        margin-right: 93px;
+    }
+
+    #myBtn{
+        right: 5px;
+    }
+
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 13.1rem !important;
+    }
+
+    .energijaBody1{
+        font-size: 12px;
+    }
+
+    /* .grupaKopche2Text{
+        margin: 0%;
+    } */
+}
+
+/* 992px - 1199.98px */
+
+
+
+/* 768px */
+
+@media (max-width: 768px) {
+
+    .prashalnik{
+        display: none;
+    }
+
+    .headlineMeni{
+        padding-left: 300px;
+    }
+
+    .violetovaPozadina{
+        display: none;
+    }
+
+    .vremenskaramkaRow{
+        display: none;
+    }
+
+    .grupaRow{
+        display: none;
+    }
+
+    .treto{
+        margin-top: 25px;
+    }
+
+    .cetvrto{
+        margin-top: 25px;
+    }
+
+    .sedmo{
+        margin-top: 25px;
+    }
+
+    .osmo{
+        margin-top: 25px;
+    }
+
+    .edinaeseto{
+        margin-top: 25px;
+    }
+
+    .dvanaeseto{
+        margin-top: 25px;
+    }
+
+    .petnaeseto{
+        margin-top: 25px;
+    }
+
+    .shesnaeseto{
+        margin-top: 25px;
+    }
+
+    .devetnaeset{
+        margin-top: 25px;
+    }
+
+    .dvaeset{
+        margin-top: 25px;
+    }
+
+    .dvaesetitri{
+        margin-top: 25px;
+    }
+
+    .dvaesetichetiri{
+        margin-top: 25px;
+    }
+
+    .dvaesetisedum{
+        margin-top: 25px;
+    }
+
+    .dvaesetiosum{
+        margin-top: 25px;
+    }
+
+    .triesetieden{
+        margin-top: 25px;
+    }
+
+    .triesetidva{
+        margin-top: 25px;
+    }
+
+    .triesetipet{
+        margin-top: 25px;
+    }
+
+    .triesetishest{
+        margin-top: 25px;
+    }
+
+    .triesetidevet{
+        margin-top: 25px;
+    }
+
+    .chetirieset{
+        margin-top: 25px;
+    }
+
+    .chetiriesetitri{
+        margin-top: 25px;
+    }
+
+    .chetiriesetichetiri{
+        margin-top: 25px;
+    }
+
+    .prvaKartickaKarticka{
+        width: 20.5rem !important;
+    }
+
+    .vtoraKartickaKarticka{
+        width: 20.5rem !important;
+    }
+
+    .tretaKarticka{
+        margin-top: 25px;
+    }
+
+    .tretaKartickaKarticka{
+        width: 20.5rem !important;
+    }
+
+    .chetvrtaKarticka{
+        margin-top: 25px;
+    }
+
+    .chetvrtaKartickaKarticka{
+        width: 20.5rem !important;
+    }
+
+    .instaIkona{
+        width: 30px !important;
+        margin-right: 0%;
+        margin-top: 30px;
+    }
+
+    .twitIkona{
+        width: 30px !important;
+        margin-top: 30px;
+    }
+
+    .linkedinIkona{
+        width: 30px !important;
+        margin-top: 30px;
+    }
+
+    .facebIkona{
+        width: 30px !important;
+        margin-top: 30px;
+    }
+
+    #myBtn{
+        right: 15px;
+    }
+}
+
+/* 768px */
+
+
+/* 576 px */
+
+
+@media (max-width: 575.98px) {
+
+    .headlineMeni{
+        display: none;
+    }
+
+    .kopcheInovacii{
+        margin-top: 17px;
+    }
+
+    .kopcheLiderstvo{
+        margin-top: 17px;
+    }
+
+    .kopcheTim{
+        margin-top: 17px;
+    }
+
+    .kopcheSite{
+        margin-top: 17px;
+    }
+
+    .vtoroVtoro{
+        margin-top: 25px;
+    }
+
+    .shestoShesto{
+        margin-top: 25px;
+    }
+
+    .desetoDeseto{
+        margin-top: 25px;
+    }
+
+    .chetirinaesetoChetirinaeseto{
+        margin-top: 25px;
+    }
+
+    .osumnaesetOsumnaeset{
+        margin-top: 25px;
+    }
+
+    .dvaesetidvaDvaesetidva{
+        margin-top: 25px;
+    }
+
+    .dvaesetishestDvaesetishest{
+        margin-top: 25px;
+    }
+
+    .triesetTrieset{
+        margin-top: 25px;
+    }
+
+    .triesetichetiriTriesetichetiri{
+        margin-top: 25px;
+    }
+
+    .triesetiosumTriesetiosum{
+        margin-top: 25px;
+    }
+
+    .chetiriesetidvaChetiriesetidva{
+        margin-top: 25px;
+    }
+
+    .prvaKartickaKarticka{
+        width: 22.5rem !important;
+
+    }
+
+    .vtoraKartickaKarticka{
+        width: 22.5rem !important;
+        margin-top: 25px;
+    }
+
+    .tretaKartickaKarticka{
+        width: 22.5rem !important;
+    }
+
+    .chetvrtaKartickaKarticka{
+        width: 22.5rem !important;
+    }
+
+    .instaIkona{
+        width: 60px !important;
+        margin-right: 47px;
+    }
+
+    .twitIkona{
+        width: 60px !important;
+    }
+
+    .linkedinIkona{
+        width: 60px !important;
+    }
+
+    .facebIkona{
+        width: 60px !important;
+    }
+
+    #myBtn{
+        right: 15px;
+        bottom: 150px;
+    }
+}
+
+
+/* 576 px */
+
+
+/* 425px */
+
+@media (max-width: 425px){
+    .instaIkona{
+        margin-right: 0px;
+    }
+
+    #myBtn{
+        right: 15px;
+        bottom: 50px;
+    }
+
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 22.83rem !important;
+    }
+}
+
+/* 425px */
+
+/* 375px */
+
+@media (max-width: 375px){
+
+    .instaIkona{
+    width: 60px !important;
+    }
+
+    .twitIkona{
+    width: 60px !important;
+    margin-right: 11px;
+    }
+
+    .linkedinIkona{
+    width: 60px !important;
+    margin-right: 11px;
+    }
+
+    .facebIkona{
+    width: 60px !important;
+    margin-right: 11px;
+    }
+
+    #myBtn{
+    right: 15px;
+    bottom: 50px;
+    }
+
+    .prvaKartickaKarticka{
+    width: 19.7rem !important;
+
+    }
+
+    .vtoraKartickaKarticka{
+    width: 19.7rem !important;
+    margin-top: 25px;
+    }
+
+    .tretaKartickaKarticka{
+    width: 19.7rem !important;
+    }
+
+    .chetvrtaKartickaKarticka{
+    width: 19.7rem !important;
+    }
+
+}
+
+
+/* 375px */
+
+
+/* MEDIA QUERY */
