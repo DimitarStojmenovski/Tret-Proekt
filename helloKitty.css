@@ -1,0 +1,693 @@
+.centarMeni{
+    text-align: center;
+    height: 100%;
+}
+
+.prashalnik{
+    padding: 5px 9px;
+    margin-right: 10px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+}
+
+.headlineMeni{
+    padding-right: 10px;
+    margin: 0%;
+    margin-bottom: 0%;
+    font-weight: 600;
+}
+
+.ulMeni :hover{
+    text-decoration: none;
+}
+
+.listItem1 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem2 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem3 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem4 {
+    text-decoration: none;
+    color:black;
+}
+
+.listItem5 {
+    text-decoration: none;
+    color:black;
+}
+
+.violetovaPozadina{
+    background-color: #562894;
+    
+}
+
+.violetovaPozadinaTitle{
+    color: white;
+    padding-top: 20px;
+}
+
+.violetovaPozadinaBody{
+    color: white;
+    padding-top: 20px;
+}
+
+.violetovaPozadinaCol{
+    text-align: center;
+}
+
+.boxItemsRow{
+    display: flex;
+}
+
+.energija{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.energija img{
+    padding-bottom: 40px;
+}
+
+.energijaBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.energijaBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.energija hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.energijaBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.inovacii{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.inovacii img{
+    padding-bottom: 31px;
+}
+
+.inovaciiBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.inovaciiBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.inovacii hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.inovaciiBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.liderstvo{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.liderstvo img{
+    padding-bottom: 40px;
+}
+
+.liderstvoBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.liderstvoBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.liderstvo hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.liderstvoBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.akcija{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.akcija img{
+    padding-bottom: 40px;
+}
+
+.akcijaBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.akcijaBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.akcija hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.akcijaBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.tim{
+    text-align: center;
+    margin-top: 35px;
+    flex: 1;
+}
+
+.tim img{
+    padding-bottom: 40px;
+}
+
+.timBody1{
+    font-weight: 700;
+    color: #bd9ade;
+    font-size: 13px;
+}
+
+.timBody2{
+    font-weight: 700;
+    color: white;
+}
+
+.tim hr{
+    width: 80%;
+    border-color: white;
+    margin-top: -5px;
+    margin-bottom: 0%;
+}
+
+.timBody3{
+    color: white;
+    line-height: 19px;
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.kopcheZapochni{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 11px 101px;
+    font-size: 21px;
+    margin: 35px 0px 55px 0px;
+
+}
+
+@media (max-width: 768px) {
+
+    .prashalnik{
+        display: none;
+    }
+
+    .headlineMeni{
+        padding-left: 280px;
+    }
+
+    @media (max-width: 575.98px){
+        .headlineMeni{
+            display: none;
+        }
+    }
+
+    .violetovaPozadina{
+        display: none;
+    }
+
+    .helloKitty{
+        padding-top: 15%;
+    }
+
+}
+
+/* body text */
+
+
+.bodyMalTitle{
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 40px;
+    color: #562894;
+}
+
+.bodyText{
+    line-height: 21px;
+}
+
+.shareKopche{
+    margin-top: 50px;
+    background-color: transparent;
+}
+
+.shareCol{
+    text-align: center;
+}
+
+.shareIkona{
+    color: #562894;
+}
+
+@media (max-width: 575.98px){
+    .shareIkona{
+        padding-top: 15px;
+    }
+}
+
+.shareText{
+    font-weight: 400;
+}
+
+
+/* body text */
+
+
+/* red ikoni */
+
+.ikoniRow{
+    background-color: #f3f3f3;
+}
+
+.saatCol{
+    text-align: center;
+}
+
+.saat{
+    padding-top: 59%;   
+}
+
+@media (max-width: 575.98px){
+    .saat{
+        padding-top: 10%;
+    }
+}
+
+.saatVremenskaRamka{
+    padding-top: 16px;
+    margin-bottom: 0%;
+    font-weight: 500;
+}
+
+.saatVreme{
+    font-weight: 400;
+}
+
+.grupaCol{
+    text-align: center;
+}
+
+.grupa{
+    padding-top: 59%;
+}
+
+@media (max-width: 575.98px){
+    .grupa{
+        padding-top: 10%;
+    }
+}
+
+.goleminaNaGrupa{
+    padding-top: 16px;
+    margin-bottom: 0%;
+    font-weight: 500;
+}
+
+.goleminaBrojki{
+    font-weight: 400;
+}
+
+.uchitelCol{
+    text-align: center;
+}
+
+.uchitel{
+    padding-top: 63%;
+}
+
+@media (max-width: 575.98px){
+    .uchitel{
+        padding-top: 10%;
+    }
+}
+
+.nivoNaFasilitiranje{
+    padding-top: 16px;
+    margin-bottom: 0%;
+    font-weight: 500;
+}
+
+.nivo{
+    font-weight: 400;
+}
+
+.materijaliCol{
+    text-align: center;
+}
+
+.materijaliIkona{
+    padding-top: 63%;
+}
+
+@media (max-width: 575.98px){
+    .materijaliIkona{
+        padding-top: 10%;
+    }
+}
+
+.materijaliTitle{
+    padding-top: 16px;
+    margin-bottom: 0%;
+    font-weight: 500;
+}
+
+.materijali{
+    font-weight: 400;
+}
+
+/* red ikoni */
+
+
+
+/* steps */
+
+.stepsRow{
+    margin-top: 50px;
+}
+
+.stepTwoTitle{
+    padding-top: 16px;
+}
+
+.stepThreeTitle{
+    padding-top: 16px;
+}
+
+/* steps */
+
+
+/* staff pick */
+
+/* prva karticka */
+
+.prvaKartickaKarticka{
+    /* border: 1px solid black; */
+}
+
+.prvaKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.prvaKartickaKarticka:hover .prvaKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.prvaKartickaBody{
+    padding-top: 0%;
+}
+
+.prvaKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.prvaKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+
+/* prva karticka */
+
+
+/* vtora karticka */
+
+.vtoraKartickaKarticka{
+    /* border: 1px solid black; */
+}
+
+.vtoraKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.vtoraKartickaKarticka:hover .vtoraKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.vtoraKartickaBody{
+    padding-top: 0%;
+}
+
+.vtoraKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.vtoraKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+/* vtora karticka */
+
+
+/* treta karticka */
+
+.tretaKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.tretaKartickaKarticka:hover .tretaKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.tretaKartickaBody{
+    padding-top: 0%;
+}
+
+.tretaKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.tretaKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+/* treta karticka */
+
+
+/* chetvrta karticka */
+
+.chetvrtaKartickaKarticka:hover{
+    border: 3px solid  #562894;
+}
+
+.chetvrtaKartickaKarticka:hover .chetvrtaKartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.chetvrtaKartickaBody{
+    padding-top: 0%;
+}
+
+.chetvrtaKartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.chetvrtaKartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+/* chetvrta karticka */
+/* staff pick */
+
+
+/* footer */
+
+.footer{
+    background-color: #562894;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+.boxOne{
+    color: white;
+}
+
+.footerPrvTitle{
+    padding-top: 15px;
+}
+
+.boxTwo{
+    color: white;
+}
+
+.boxThree{
+    color: white;
+    padding-bottom: 50px;
+}
+
+.boxThree ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+.instaIkona{
+    margin-right: 210px;
+    margin-top: 50px;
+}
+
+.twitIkona{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.linkedinIkona{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.facebIkona{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.socialMedia{
+    margin-top: 50px;
+    margin-right: 190px;
+}
+
+/* footer */
+
+
+/* MEDIA QUERY */
+
+/* 992px - 1199.98px */
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 11rem !important;
+    }
+
+    .instaIkona{
+        margin-right: 93px;
+    }
+}
+
+/* 992px - 1199.98px */
+
+
+/* 768px */
+
+@media (max-width: 768px) {
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 17.60rem !important;
+    }
+
+    .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        margin-top: 25px;
+    }
+
+    .saat, .grupa, .uchitel, .materijaliIkona{
+        padding-top: 25px;
+    }
+
+    .instaIkona{
+        margin-right: 20px;
+    }
+
+    .shareKopche{
+        margin-top: 5px;
+    }
+
+    
+}
+
+/* 768px */
+
+
+/* 425px */
+
+
+
+/* 425px */
+
+/* MEDIA QUERY */
