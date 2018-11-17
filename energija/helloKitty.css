@@ -311,6 +311,11 @@
     color: #562894;
 }
 
+.shareButtons{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 @media (max-width: 575.98px){
     .shareIkona{
         padding-top: 15px;
