@@ -671,7 +671,20 @@
     }
 
     .instaIkona{
+        margin-top: 30px;
         margin-right: 20px;
+    }
+
+    .facebIkona{
+        margin-top: 30px;
+    }
+
+    .twitIkona{
+        margin-top: 30px;
+    }
+
+    .linkedinIkona{
+        margin-top: 30px;
     }
 
     .shareKopche{
@@ -686,8 +699,95 @@
 
 /* 425px */
 
+@media (max-width: 425px){
+    .instaIkona{
+        margin-right: 0px;
+    }
 
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 20.3rem !important;
+    }
+
+    .vtoraKartickaKarticka{
+        margin-top: 25px;
+    }
+
+    .instaIkona{
+        width: 60px !important;
+        margin-right: 0px;
+    }
+
+    .twitIkona{
+        width: 60px !important;
+    }
+
+    .linkedinIkona{
+        width: 60px !important;
+    }
+
+    .facebIkona{
+        width: 60px !important;
+    }
+}
 
 /* 425px */
+
+
+/* 375px */
+
+@media (max-width: 375px){
+
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 17.7rem !important;
+    }
+
+    .twitIkona{
+        margin-right: 11px;
+    }
+
+    .linkedinIkona{
+        margin-right: 11px;
+    }
+
+    .facebIkona{
+        margin-right: 11px;
+    }
+}
+
+/* 375px */
+
+/* 320px */
+
+@media (max-width: 320px){
+
+    .logoName strong{
+        display: none;
+    }
+
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 14.8rem !important;
+    }
+
+    .instaIkona{
+        width: 55px !important;
+    }
+
+    .twitIkona{
+        width: 55px !important;
+        margin-right: 5px;
+    }
+
+    .linkedinIkona{
+        width: 55px !important;
+        margin-right: 5px;
+    }
+
+    .facebIkona{
+        width: 55px !important;
+        margin-right: 5px;
+    }
+}
+
+/* 320px */
 
 /* MEDIA QUERY */
