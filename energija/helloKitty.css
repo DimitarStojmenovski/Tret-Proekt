@@ -645,6 +645,17 @@
 
 /* MEDIA QUERY */
 
+
+/* 1200px - 1409px */
+
+@media (min-width: 1200px) and (max-width: 1409px) {
+    .instaIkona{
+        margin-right: 53% !important;
+    }
+}
+
+/* 1200px - 1409px */
+
 /* 992px - 1199.98px */
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -705,9 +716,6 @@
 /* 425px */
 
 @media (max-width: 425px){
-    .instaIkona{
-        margin-right: 0px;
-    }
 
     .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
         width: 20.3rem !important;
