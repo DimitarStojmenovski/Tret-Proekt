@@ -202,7 +202,7 @@
                                 <div class="fb-share-button" data-href="https://tretproekt.herokuapp.com/energija/helloKitty.html" data-layout="button_count" data-size="small" data-mobile-iframe="true">
                                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftretproekt.herokuapp.com%2Fenergija%2FhelloKitty.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
                                 </div>
-                                <a class="twitter-share-button"href="https://twitter.com/intent/tweet?text=Hello%20world"data-size="">Tweet</a>
+                                <a class="twitter-share-button"href="https://tretproekt.herokuapp.com/energija/helloKitty.html"data-size="">Tweet</a>
                                 <!-- <img src="../Materijali/footer/twitter.png" alt="twitter" width="25px;" class="img-fluid twitIkona2"> -->
                             </div>
                         </div>
@@ -330,6 +330,23 @@
         js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
         fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
+
+        window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </body>
