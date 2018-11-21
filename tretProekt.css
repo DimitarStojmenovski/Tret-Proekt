@@ -2,7 +2,9 @@
     height: 250px;
 } */
 
-
+.paddedRow {
+    padding-top: 25px;
+}
 #myBtn {
     display: none;
     position: fixed;
@@ -298,110 +300,31 @@
     padding: 10px 0px 13px 0px;
 }
 
-.kopcheEnergija{
+.mainSelector{
     background: white;;
     border: 1px solid #562894;
     color: #562894;
     font-weight: 600;
 }
 
-.kopcheEnergijaBrojka{
+.counterText {
     color: #bd9ade;
 }
 
-.kopcheEnergija:hover{
+.mainSelector:hover{
     background-color: #562894;
     border: none;
     color: white;
 }
 
-.kopcheInovacii{
-    background: white;;
-    border: 1px solid #562894;
-    color: #562894;
-    font-weight: 600;
-}
-
-.kopcheInovaciiBrojka{
-    color: #bd9ade;
-}
-
-.kopcheInovacii:hover{
-    background-color: #562894;
-    border: none;
-    color: white;
-}
-
-.kopcheLiderstvo{
-    background: white;;
-    border: 1px solid #562894;
-    color: #562894;
-    font-weight: 600;
-}
-
-.kopcheLiderstvoBrojka{
-    color: #bd9ade;
-}
-
-.kopcheLiderstvo:hover{
-    background-color: #562894;
-    border: none;
-    color: white;
+.highlightedButton {
+    background-color: #562894 !important; 
+    border: none !important;
+    color: white !important; 
 }
 
 .kopchinjaRow2{
     padding-top: 15px;
-}
-
-.kopcheAkcija{
-    background: white;;
-    border: 1px solid #562894;
-    color: #562894;
-    font-weight: 600;
-}
-
-.kopcheAkcijaBrojka{
-    color: #bd9ade;
-}
-
-.kopcheAkcija:hover{
-    background-color: #562894;
-    border: none;
-    color: white;
-}
-
-.kopcheTim{
-    background: white;;
-    border: 1px solid #562894;
-    color: #562894;
-    font-weight: 600;
-}
-
-.kopcheTimBrojka{
-    color: #bd9ade;
-}
-
-.kopcheTim:hover{
-    background-color: #562894;
-    border: none;
-    color: white;
-}
-
-.kopcheSite{
-    background: white;;
-    border: 1px solid #562894;
-    color: #562894;
-    font-weight: 600;
-}
-
-.kopcheSiteBrojka{
-    color: #bd9ade;
-}
-
-.kopcheSite:hover{
-    background-color: #562894;
-    border: none;
-    color: white;
 }
 
 .vremenskaramkaText{
@@ -535,6 +458,7 @@
 }
 
 /* prvo */
+
 
 .prvoPrvo{
     border: 1px solid #562894;
