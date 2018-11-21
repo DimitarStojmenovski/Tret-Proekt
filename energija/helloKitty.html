@@ -1,310 +1,350 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:url" content="https://tretproekt.herokuapp.com/energija/helloKitty.html" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Hello Kitty"/>
+    <meta property="og:title" content="Hello Kitty" />
     <meta property="og:description" content="Едноставна и кратка групна игра, целта е да успеете некого да насмеете. Учесниците се делат во две групи, 'мачиња' и 'кучиња'. " />
-    <meta property="og:image"  content="url(../Materijali/energija/01.png)"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <meta property="og:image" content="url(../Materijali/energija/01.png)" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="../dataLoader.js"></script>
+    <script src="helloKitty.js"></script>
     <link rel="stylesheet" href="helloKitty.css">
 
     <title>Hello Kitty</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container-fluid">
-    <div class="container">
-        <div class="pos-f-t">
-            <nav class="navbar navbar-light bg-lightgrey">
-            <a href="../tretProekt.html" class="navbar-brand">
-                <span class="logoName"><img src="../Materijali/Brainster-Logo.png" alt="logo" class="img-responsive" width="45px"> <strong>BRAINSTERBOX</strong></span>
-            </a>
-            <button type="button" data-toggle="collapse" data-target="#demo" class="btn ml-auto prashalnik"><i class="fas fa-question"></i></button>
-            <h5 class="headlineMeni">МЕНИ</h5>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            </nav>
-            <div class="collapse visina" id="navbarToggleExternalContent">
-                <div class="bg-lightgrey p-4 centarMeni">
-                    <ul class="list-group list-group-flush ulMeni">
-                        <li class="list-group-item"><a href="https://www.brainster.io/business" target="_blank" class="listItem1">Корпоративни тренинзи</a></li>
-                        <li class="list-group-item"><a href="https://brainster.co/courses#!/grid/infinite/throttle:30/threshold:30/" target="_blank" class="listItem2">Курсеви</a></li>
-                        <li class="list-group-item"><a href="http://codepreneurs.co/" target="_blank" class="listItem3">Академија за програмирање</a></li>
-                        <li class="list-group-item"><a href="https://www.brainster.io/marketpreneurs" target="_blank" class="listItem4">Академија за маркетинг</a></li>
-                        <li class="list-group-item"><a href="https://www.brainster.io/akademija-za-dizajn" target="_blank" class="listItem5">Академија за дизајн</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div id="demo" class="row collapse violetovaPozadina">
-            <div class="col-xl-12 col-lg-12">
-                <div class="row violetovaPozadinaRow">
-                    <div class="col-xl-12 col-lg-12 violetovaPozadinaCol">
-                        <h3 class="text-center violetovaPozadinaTitle">BRAINSTERBOX</h3>
-                        <p class="text-center violetovaPozadinaBody">Твојата лична кутија со ресурси и алатки за креативна колаборација и откривање на потенцијалот во твојот тим или организација.</p>
-                        <div class="row boxItems">
-                            <div class="col-xl-12 col-lg-12 boxItemsRow">
-                                <div class="energija">
-                                    <img src="../Materijali/01.png" width="100px">
-                                    <p><span class="energijaBody1">РАЗДВИЖИ ГО ПРОСТОРОТ СО</span><br><span class="energijaBody2">ЕНЕРГИЈА</span></p>
-                                    <hr>
-                                    <p class="energijaBody3">Алатки кои ја подигнуваат енергијата меѓу процесите и луѓето преку забава.</p>
-                                </div>
-  
-                                <div class="inovacii">
-                                    <img src="../Materijali/02.png" width="110px">
-                                    <p><span class="inovaciiBody1">ОТКЛУЧИ</span><br><span class="inovaciiBody2">ИНОВАЦИИ</span></p>
-                                    <hr>
-                                    <p class="inovaciiBody3">Алатки за ослободување на креативноста и развивање нови продукти и услуги.</p>
-                                </div>
-  
-                                <div class="liderstvo">
-                                    <img src="../Materijali/03.png" width="100px">
-                                    <p><span class="liderstvoBody1">РАЗВИЈ ПЕРСОНАЛНО</span><br><span class="liderstvoBody2">ЛИДЕРСТВО</span></p>
-                                    <hr>
-                                    <p class="liderstvoBody3">Алатки за персонален развој, самосвест и како да се интегрира постојано учење и раст.</p>
-                                </div>
-  
-                                <div class="akcija">
-                                    <img src="../Materijali/04.png" width="100px">
-                                    <p><span class="akcijaBody1">НАПРАВИ ПРОМЕНА ПРЕКУ</span><br><span class="akcijaBody2">АКЦИЈА</span></p>
-                                    <hr>
-                                    <p class="akcijaBody3">Алатки фокусирани на имплементација, егзекуција <br>и поддршка на промените <br>во тимот.</p>
-                                </div>
-  
-                                <div class="tim">
-                                    <img src="../Materijali/05.png" width="100px">
-                                    <p><span class="timBody1">ИЗГРАДИ НЕПОБЕДЛИВ</span><br><span class="timBody2">ТИМ</span></p>
-                                    <hr>
-                                    <p class="timBody3">Алатки за ефективни тимови-поттикнување доверба и отвореност за поголема соработка.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class=" btn kopcheZapochni" type="button" data-toggle="collapse" data-target="#demo">Започни</button>
+        <div class="container">
+            <div class="pos-f-t">
+                <nav class="navbar navbar-light bg-lightgrey">
+                    <a href="../tretProekt.html" class="navbar-brand">
+                        <span class="logoName"><img src="../Materijali/Brainster-Logo.png" alt="logo" class="img-responsive"
+                                width="45px"> <strong>BRAINSTERBOX</strong></span>
+                    </a>
+                    <button type="button" data-toggle="collapse" data-target="#demo" class="btn ml-auto prashalnik"><i
+                            class="fas fa-question"></i></button>
+                    <h5 class="headlineMeni">МЕНИ</h5>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+                <div class="collapse visina" id="navbarToggleExternalContent">
+                    <div class="bg-lightgrey p-4 centarMeni">
+                        <ul class="list-group list-group-flush ulMeni">
+                            <li class="list-group-item"><a href="https://www.brainster.io/business" target="_blank"
+                                    class="listItem1">Корпоративни тренинзи</a></li>
+                            <li class="list-group-item"><a href="https://brainster.co/courses#!/grid/infinite/throttle:30/threshold:30/"
+                                    target="_blank" class="listItem2">Курсеви</a></li>
+                            <li class="list-group-item"><a href="http://codepreneurs.co/" target="_blank" class="listItem3">Академија
+                                    за програмирање</a></li>
+                            <li class="list-group-item"><a href="https://www.brainster.io/marketpreneurs" target="_blank"
+                                    class="listItem4">Академија за маркетинг</a></li>
+                            <li class="list-group-item"><a href="https://www.brainster.io/akademija-za-dizajn" target="_blank"
+                                    class="listItem5">Академија за дизајн</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12 slikaCol">
-                        <img src="../Materijali/energija/01.png" alt="Hello Kitty" class="img-fluid helloKitty">
-                    </div>
+            <div id="demo" class="row collapse violetovaPozadina">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="row violetovaPozadinaRow">
+                        <div class="col-xl-12 col-lg-12 violetovaPozadinaCol">
+                            <h3 class="text-center violetovaPozadinaTitle">BRAINSTERBOX</h3>
+                            <p class="text-center violetovaPozadinaBody">Твојата лична кутија со ресурси и алатки за
+                                креативна колаборација и откривање на потенцијалот во твојот тим или организација.</p>
+                            <div class="row boxItems">
+                                <div class="col-xl-12 col-lg-12 boxItemsRow">
+                                    <div class="energija">
+                                        <img src="../Materijali/01.png" width="100px">
+                                        <p><span class="energijaBody1">РАЗДВИЖИ ГО ПРОСТОРОТ СО</span><br><span class="energijaBody2">ЕНЕРГИЈА</span></p>
+                                        <hr>
+                                        <p class="energijaBody3">Алатки кои ја подигнуваат енергијата меѓу процесите и
+                                            луѓето преку забава.</p>
+                                    </div>
 
-                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-7 col-12 bodyCol">
-                        <p class="bodyMalTitle">ЕНЕРГИЈА</p>
-                        <h2>Hello Kitty</h2>
-                        <p class="bodyText">Едноставна и кратка групна игра, целта е да успеете некого да насмеете. Учесниците се делат во две групи, 'мачиња' и 'кучиња'. Кучињата се обидуваат да измамат насмевка од мачињата, или уште подобро, гласно смеење. Последниот што ќе остане е победник!</p>
-                    </div>  
+                                    <div class="inovacii">
+                                        <img src="../Materijali/02.png" width="110px">
+                                        <p><span class="inovaciiBody1">ОТКЛУЧИ</span><br><span class="inovaciiBody2">ИНОВАЦИИ</span></p>
+                                        <hr>
+                                        <p class="inovaciiBody3">Алатки за ослободување на креативноста и развивање
+                                            нови продукти и услуги.</p>
+                                    </div>
 
-                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12 shareCol">
-                        <button class="btn btn-btn shareKopche" type="button"><a href="#link"><i class="fas fa-share-alt fa-2x shareIkona"></i></a></button>
-                        <p class="shareText">Share</p>
-                    </div>
-                </div>
+                                    <div class="liderstvo">
+                                        <img src="../Materijali/03.png" width="100px">
+                                        <p><span class="liderstvoBody1">РАЗВИЈ ПЕРСОНАЛНО</span><br><span class="liderstvoBody2">ЛИДЕРСТВО</span></p>
+                                        <hr>
+                                        <p class="liderstvoBody3">Алатки за персонален развој, самосвест и како да се
+                                            интегрира постојано учење и раст.</p>
+                                    </div>
 
-                <div class="row ikoniRow">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 prvaikonaCol">
-                        <div class="row prvaIkonaRow">
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 saatCol">
-                                <i class="far fa-clock fa-2x float-right saat"></i>
-                            </div>
-                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
-                                <p class="saatVremenskaRamka">Временска рамка</p>
-                                <p class="saatVreme">5-30 минути</p>
-                            </div>
-                        </div>
-                    </div>
+                                    <div class="akcija">
+                                        <img src="../Materijali/04.png" width="100px">
+                                        <p><span class="akcijaBody1">НАПРАВИ ПРОМЕНА ПРЕКУ</span><br><span class="akcijaBody2">АКЦИЈА</span></p>
+                                        <hr>
+                                        <p class="akcijaBody3">Алатки фокусирани на имплементација, егзекуција <br>и
+                                            поддршка на промените <br>во тимот.</p>
+                                    </div>
 
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 vtoraikonaCol">
-                        <div class="row vtoraIkonaRow">
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 grupaCol">
-                                <i class="fas fa-users fa-2x float-right grupa"></i>
+                                    <div class="tim">
+                                        <img src="../Materijali/05.png" width="100px">
+                                        <p><span class="timBody1">ИЗГРАДИ НЕПОБЕДЛИВ</span><br><span class="timBody2">ТИМ</span></p>
+                                        <hr>
+                                        <p class="timBody3">Алатки за ефективни тимови-поттикнување доверба и
+                                            отвореност за поголема соработка.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
-                                <p class="goleminaNaGrupa">Големина на група</p>
-                                <p class="goleminaBrojki">2-40+</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 tretaikonaCol">
-                        <div class="row tretaIkonaRow">
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 uchitelCol">
-                                <i class="fas fa-chalkboard-teacher fa-2x float-right uchitel"></i>
-                            </div>
-                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
-                                <p class="nivoNaFasilitiranje">Ниво за фасилитирање</p>
-                                <p class="nivo">Почетно</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 cetvrtaikonaCol">
-                        <div class="row cetvrtaIkonaRow">
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 materijaliCol">
-                                <i class="fas fa-paperclip fa-2x float-right materijaliIkona"></i>
-                            </div>
-                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
-                                <p class="materijaliTitle">Материјали</p>
-                                <p class="materijali">/</p>
-                            </div>
+                            <button class=" btn kopcheZapochni" type="button" data-toggle="collapse" data-target="#demo">Започни</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row stepsRow">
-                <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10            offset-sm-1 col-10 offset-1">
-                    <div class="row stepOneBodyRow">
-                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 stepOneBodyCol">
-                            <h4 class="stepOneTitle">Чекор 1</h4>
-                            <p class="stepOneParagraph">Со селотејп направете линија и поделете го просторот       на два дела.<br>
-                                Поделете ја групата на две спротивни страни. Едната страна се мачиња, другата кучиња.
-                            </p>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 stepOneBodyCol2"></div>
-                    </div>
-                    <hr>
-                    <div class="row stepTwoBodyRow">
-                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 stepTwoBodyCol">
-                            <h4 class="stepTwoTitle">Чекор 2</h4>
-                            <p class="stepTwoParagraph">На мачињата им е забрането да се насмеат.
-                                Кучињата треба да им кажат здраво на мачињата на секаков можен начин, со цел да ги насмеат. Кучињата не смеат да ја поминуваат линијата.
-                            </p>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 stepTwoBodyCol2"></div>
-                    </div>
-                    <hr>
-                    <div class="row stepThreeBodyRow">
-                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 stepThreeBodyCol">
-                            <h4 class="stepThreeTitle">Чекор 3</h4>
-                            <p class="stepThreeParagraph">Кога едно маче ќе се насмее, автоматски     станува куче и преминува на другата страна од просторот.
-                                Продолжете додека не остане последното маче, кое е победник.  
-                            </p>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 stepThreeBodyCol2"></div>
-                    </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12 slikaCol">
+                            <img id="mainImage" src="../Materijali/energija/01.png" alt="Hello Kitty" class="img-fluid helloKitty">
+                        </div>
+
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-7 col-12 bodyCol">
+                            <p id="mainType" class="bodyMalTitle">ЕНЕРГИЈА</p>
+                            <h2 id="title">Hello Kitty</h2>
+                            <p id="shortDescription" class="bodyText">Едноставна и кратка групна игра, целта е да
+                                успеете некого да насмеете. Учесниците се делат во две групи, 'мачиња' и 'кучиња'.
+                                Кучињата се обидуваат да измамат насмевка од мачињата, или уште подобро, гласно смеење.
+                                Последниот што ќе остане е победник!</p>
+                        </div>
+
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12 shareCol">
+                            <button class="btn btn-btn shareKopche" type="button"><a href="#link"><i class="fas fa-share-alt fa-2x shareIkona"></i></a></button>
+                            <p class="shareText">Share</p>
+                        </div>
+                    </div>
+
+                    <div class="row ikoniRow">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 ikonaCol">
+                            <div class="row IkonaRow">
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 saatCol">
+                                    <i class="far fa-clock fa-2x float-right saat"></i>
+                                </div>
+                                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
+                                    <p class="saatVremenskaRamka">Временска рамка</p>
+                                    <p id="timeFrame" class="saatVreme">5-30 минути</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 ikonaCol">
+                            <div class="row IkonaRow">
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 grupaCol">
+                                    <i class="fas fa-users fa-2x float-right grupa"></i>
+                                </div>
+                                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
+                                    <p class="goleminaNaGrupa">Големина на група</p>
+                                    <p id="groupSize" class="goleminaBrojki">2-40+</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 ikonaCol">
+                            <div class="row IkonaRow">
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 uchitelCol">
+                                    <i class="fas fa-chalkboard-teacher fa-2x float-right uchitel"></i>
+                                </div>
+                                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
+                                    <p class="nivoNaFasilitiranje">Ниво за фасилитирање</p>
+                                    <p id="facilitation" class="nivo">Почетно</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 cetvrtaikonaCol">
+                            <div class="row cetvrtaIkonaRow">
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-5 materijaliCol">
+                                    <i class="fas fa-paperclip fa-2x float-right materijaliIkona"></i>
+                                </div>
+                                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-6">
+                                    <p class="materijaliTitle">Материјали</p>
+                                    <p id="materials" class="materijali">/</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row stepsRow">
+                    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10            offset-sm-1 col-10 offset-1">
+                        <div id="stepCont">
+                            <div class="row stepTwoBodyRow">
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 stepTwoBodyCol">
+                                    <h4 class="stepTwoTitle">Чекор 2</h4>
+                                    <p class="stepTwoParagraph">На мачињата им е забрането да се насмеат.
+                                        Кучињата треба да им кажат здраво на мачињата на секаков можен начин, со цел да
+                                        ги
+                                        насмеат. Кучињата не смеат да ја поминуваат линијата.
+                                    </p>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 stepTwoBodyCol2">
+
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row stepThreeBodyRow">
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 stepThreeBodyCol">
+                                    <h4 class="stepThreeTitle">Чекор 3</h4>
+                                    <p class="stepThreeParagraph">Кога едно маче ќе се насмее, автоматски станува куче
+                                        и
+                                        преминува на другата страна од просторот.
+                                        Продолжете додека не остане последното маче, кое е победник.
+                                    </p>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 stepThreeBodyCol2"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div id="disqus_thread"></div>
                             </div>
                         </div>
                         <div class="row shareButtons" id="link">
                             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-8">
-                                <div class="fb-share-button" data-href="https://tretproekt.herokuapp.com/energija/helloKitty.html" data-layout="button_count" data-size="small" data-mobile-iframe="true">
-                                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftretproekt.herokuapp.com%2Fenergija%2FhelloKitty.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+                                <div class="fb-share-button" data-href="https://tretproekt.herokuapp.com/energija/helloKitty.html"
+                                    data-layout="button_count" data-size="small" data-mobile-iframe="true">
+                                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftretproekt.herokuapp.com%2Fenergija%2FhelloKitty.html&amp;src=sdkpreparse"
+                                        class="fb-xfbml-parse-ignore">Share</a>
                                 </div>
-                                <a class="twitter-share-button"href="https://tretproekt.herokuapp.com/energija/helloKitty.html"data-size="small">Tweet</a>
+                                <a class="twitter-share-button" href="https://tretproekt.herokuapp.com/energija/helloKitty.html"
+                                    data-size="small">Tweet</a>
                             </div>
                         </div>
                         <p class="dolePreporakaText">Препорачани од нашиот тим</p>
-                          <div class="row chetiriKartickiRow" id="chetiriKartickiRow">
+                        <div class="row chetiriKartickiRow" id="chetiriKartickiRow">
                             <div>
-                              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 prvaKarticka">
-                                <div class="card prvaKartickaKarticka" style="width: 13.35rem;">
-                                  <img class="card-img-top" src="../Materijali/energija/9.png" alt="Mazunga" class="img-fluid" width="200px">
-                                  <div class="card-body prvaKartickaBody">
-                                    <p class="prvaKartickaMalTitle">ЕНЕРГИЈА</p>
-                                    <h5 class="prvaKartickaTitle">Mazunga</h5>
-                                    <p class="prvaKartickaBody">Овој брз и гласен energizer е многу ефикасен за зголемување на енергијата на групата за многу краток временски период...</p>
-                                    <a href="#" class="btn btn-block prvaKartickaKopche">Дознај повеќе</a>
-                                  </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 Karticka">
+                                    <div class="card karticka" style="width: 13.35rem;">
+                                        <img class="card-img-top" src="../Materijali/energija/9.png" alt="Mazunga"
+                                            class="img-fluid" width="200px">
+                                        <div class="card-body KartickaBody">
+                                            <p class="KartickaMalTitle">ЕНЕРГИЈА</p>
+                                            <h5 class="KartickaTitle">Mazunga</h5>
+                                            <p class="KartickaBody">Овој брз и гласен energizer е многу ефикасен за
+                                                зголемување на енергијата на групата за многу краток временски
+                                                период...</p>
+                                            <a href="#" class="btn btn-block KartickaKopche">Дознај повеќе</a>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-            
+
                             <div>
-                              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 vtoraKarticka">
-                                <div class="card vtoraKartickaKarticka" style="width: 13.35rem;">
-                                  <img class="card-img-top" src="../Materijali/inovacii/1.png" alt="Тhe 5 Whys" class="img-fluid" width="200px">
-                                  <div class="card-body vtoraKartickaBody">
-                                    <p class="vtoraKartickaMalTitle">ИНОВАЦИИ</p>
-                                    <h5 class="vtoraKartickaTitle">Тhe 5 Whys</h5>
-                                    <p class="vtoraKartickaBody">Овој едноставен и моќен метод е корисен за откривање на јадрото на проблемот или предизвикот...</p>
-                                    <a href="#" class="btn btn-block vtoraKartickaKopche">Дознај повеќе</a>
-                                  </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 Karticka">
+                                    <div class="card karticka" style="width: 13.35rem;">
+                                        <img class="card-img-top" src="../Materijali/inovacii/1.png" alt="Тhe 5 Whys"
+                                            class="img-fluid" width="200px">
+                                        <div class="card-body KartickaBody">
+                                            <p class="KartickaMalTitle">ИНОВАЦИИ</p>
+                                            <h5 class="KartickaTitle">Тhe 5 Whys</h5>
+                                            <p class="KartickaBody">Овој едноставен и моќен метод е корисен за
+                                                откривање на јадрото на проблемот или предизвикот...</p>
+                                            <a href="#" class="btn btn-block KartickaKopche">Дознај повеќе</a>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-            
+
                             <div>
-                              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 tretaKarticka">
-                                <div class="card tretaKartickaKarticka" style="width: 13.35rem;">
-                                  <img class="card-img-top" src="../Materijali/liderstvo/03.png" alt="Feedback: I appreciate" class="img-fluid" width="200px">
-                                  <div class="card-body tretaKartickaBody">
-                                    <p class="tretaKartickaMalTitle">ЛИДЕРСТВО</p>
-                                    <h5 class="tretaKartickaTitle">Feedback: I appreciate</h5>
-                                    <p class="tretaKartickaBody">Редовен и ефективен фидбек е еден од најважните состојки во градењето конструктивни односи...</p>
-                                    <a href="#" class="btn btn-block tretaKartickaKopche">Дознај повеќе</a>
-                                  </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 Karticka">
+                                    <div class="card karticka" style="width: 13.35rem;">
+                                        <img class="card-img-top" src="../Materijali/liderstvo/03.png" alt="Feedback: I appreciate"
+                                            class="img-fluid" width="200px">
+                                        <div class="card-body KartickaBody">
+                                            <p class="KartickaMalTitle">ЛИДЕРСТВО</p>
+                                            <h5 class="KartickaTitle">Feedback: I appreciate</h5>
+                                            <p class="KartickaBody">Редовен и ефективен фидбек е еден од најважните
+                                                состојки во градењето конструктивни односи...</p>
+                                            <a href="#" class="btn btn-block KartickaKopche">Дознај повеќе</a>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-            
+
                             <div>
-                              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetvrtaKarticka">
-                                <div class="card chetvrtaKartickaKarticka" style="width: 13.35rem;">
-                                  <img class="card-img-top" src="../Materijali/tim/1.png" alt="Conflict Responses" class="img-fluid" width="200px">
-                                  <div class="card-body chetvrtaKartickaBody">
-                                    <p class="chetvrtaKartickaMalTitle">ТИМ</p>
-                                    <h5 class="chetvrtaKartickaTitle">Conflict Responses</h5>
-                                    <p class="chetvrtaKartickaBody">Работилница за тим кој ќе размислува за минатите конфликти и ги користи за да генерира насоки за ефикасно...</p>
-                                    <a href="#" class="btn btn-block chetvrtaKartickaKopche">Дознај повеќе</a>
-                                  </div>
+                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 Karticka">
+                                    <div class="card karticka" style="">
+                                        <img class="card-img-top" src="../Materijali/tim/1.png" alt="Conflict Responses"
+                                            class="img-fluid" width="200px">
+                                        <div class="card-body KartickaBody">
+                                            <p class="KartickaMalTitle">ТИМ</p>
+                                            <h5 class="KartickaTitle">Conflict Responses</h5>
+                                            <p class="KartickaBody">Работилница за тим кој ќе размислува за минатите
+                                                конфликти и ги користи за да генерира насоки за ефикасно...</p>
+                                            <a href="#" class="btn btn-block KartickaKopche">Дознај повеќе</a>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
                 </div>
-            
-
-      <div class="row footer">
-        <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offet-1 footerCol">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxOne">
-              <h3 class="footerPrvTitle">Brainster Box</h3>
-              <p>Brainster Box е ресурс за секој што сака да ги направи работите покреативни и поефикасни во својот тим или компанија.</p>
             </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxTwo">
-              <h3 class="footerPrvTitle">За нас</h3>
-              <p>Brainster е иновативно компанија за едукација која комбинира врвен наставен план, експертиза и ефективна стратегија за обучување на компании и индивидуалци.</p>
-            </div>
-
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxThree">
-                <h3 class="footerPrvTitle">Продукти на Brainster</h3>
-                <ul>
-                  <li>Корпоративни тренинзи</li>
-                  <li>Курсеви</li>
-                  <li>Академија за програмирање</li>
-                  <li>Академија за маркетинг</li>
-                  <li>Академија за дизајн</li>
-                </ul>
-                <!-- <div class="socialMedia"> -->
-                  <img src="../Materijali/footer/instagram.png" alt="instagram" width="25px;" class="float-right img-fluid instaIkona">
-                  <img src="../Materijali/footer/twitter.png" alt="twitter" width="25px;" class="float-right img-fluid twitIkona">
-                  <img src="../Materijali/footer/linkedin.png" alt="linkedin" width="25px;" class="float-right img-fluid linkedinIkona">
-                  <img src="../Materijali/footer/facebook.png" alt="facebook" width="25px;" class="float-right img-fluid facebIkona">
-                <!-- </div> -->
-              </div>
-          </div>
         </div>
-      </div>
+
+
+        <div class="row footer">
+            <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offet-1 footerCol">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxOne">
+                        <h3 class="footerPrvTitle">Brainster Box</h3>
+                        <p>Brainster Box е ресурс за секој што сака да ги направи работите покреативни и поефикасни во
+                            својот тим или компанија.</p>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxTwo">
+                        <h3 class="footerPrvTitle">За нас</h3>
+                        <p>Brainster е иновативно компанија за едукација која комбинира врвен наставен план, експертиза
+                            и ефективна стратегија за обучување на компании и индивидуалци.</p>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxThree">
+                        <h3 class="footerPrvTitle">Продукти на Brainster</h3>
+                        <ul>
+                            <li>Корпоративни тренинзи</li>
+                            <li>Курсеви</li>
+                            <li>Академија за програмирање</li>
+                            <li>Академија за маркетинг</li>
+                            <li>Академија за дизајн</li>
+                        </ul>
+                        <!-- <div class="socialMedia"> -->
+                        <img src="../Materijali/footer/instagram.png" alt="instagram" width="25px;" class="float-right img-fluid instaIkona">
+                        <img src="../Materijali/footer/twitter.png" alt="twitter" width="25px;" class="float-right img-fluid twitIkona">
+                        <img src="../Materijali/footer/linkedin.png" alt="linkedin" width="25px;" class="float-right img-fluid linkedinIkona">
+                        <img src="../Materijali/footer/facebook.png" alt="facebook" width="25px;" class="float-right img-fluid facebIkona">
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </div>
-    <!-- <script src="helloKitty.js"></script> -->
+
     <script>
         /**
         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -315,37 +355,38 @@
         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
         };
         */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://https-tretproekt-herokuapp-com.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-tretproekt-herokuapp-com.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
         })();
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-        fjs.parentNode.insertBefore(js, fjs);
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+            fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
 
-        window.twttr = (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0],
-        t = window.twttr || {};
-        if (d.getElementById(id)) return t;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
+        window.twttr = (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
 
-        t._e = [];
-        t.ready = function(f) {
-        t._e.push(f);
-        };
+            t._e = [];
+            t.ready = function (f) {
+                t._e.push(f);
+            };
 
-        return t;
+            return t;
         }(document, "script", "twitter-wjs"));
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </body>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+</body>

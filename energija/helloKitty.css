@@ -24,29 +24,13 @@
     text-decoration: none;
 }
 
-.listItem1 {
+.listItem {
     text-decoration: none;
     color:black;
 }
 
-.listItem2 {
-    text-decoration: none;
-    color:black;
-}
-
-.listItem3 {
-    text-decoration: none;
-    color:black;
-}
-
-.listItem4 {
-    text-decoration: none;
-    color:black;
-}
-
-.listItem5 {
-    text-decoration: none;
-    color:black;
+.greenColorList {
+    color:green !important;
 }
 
 .violetovaPozadina{
@@ -450,138 +434,120 @@
     padding-top: 16px;
 }
 
-/* steps */
 
-
-/* staff pick */
-
-/* prva karticka */
-
-.prvaKartickaKarticka{
-    /* border: 1px solid black; */
-}
-
-.prvaKartickaKarticka:hover{
+.karticka:hover{
     border: 3px solid  #562894;
+    width: 13.35rem;
 }
 
-.prvaKartickaKarticka:hover .prvaKartickaKopche{
+.karticka:hover .KartickaKopche{
     background-color: #562894;
     color: white;
 } 
 
-.prvaKartickaBody{
+.KartickaBody{
     padding-top: 0%;
 }
 
-.prvaKartickaMalTitle{
+.kartickaMalTitle{
     font-size: 13px;
     font-weight: 600;
     color: #562894;
 }
 
-.prvaKartickaKopche{
+.kartickaKopche{
     border: 1px solid #562894;
     color: #562894;
     font-weight: 600;
 }
 
 
-/* prva karticka */
-
-
-/* vtora karticka */
-
-.vtoraKartickaKarticka{
-    /* border: 1px solid black; */
-}
-
-.vtoraKartickaKarticka:hover{
+.karticka:hover{
     border: 3px solid  #562894;
 }
 
-.vtoraKartickaKarticka:hover .vtoraKartickaKopche{
+.karticka:hover .KartickaKopche{
     background-color: #562894;
     color: white;
 } 
 
-.vtoraKartickaBody{
+.KartickaBody{
     padding-top: 0%;
 }
 
-.vtoraKartickaMalTitle{
+.KartickaMalTitle{
     font-size: 13px;
     font-weight: 600;
     color: #562894;
 }
 
-.vtoraKartickaKopche{
+.KartickaKopche{
     border: 1px solid #562894;
     color: #562894;
     font-weight: 600;
 }
 
-/* vtora karticka */
+/*  karticka */
 
 
-/* treta karticka */
+/*  karticka */
 
-.tretaKartickaKarticka:hover{
+.karticka:hover{
     border: 3px solid  #562894;
 }
 
-.tretaKartickaKarticka:hover .tretaKartickaKopche{
+.karticka:hover .KartickaKopche{
     background-color: #562894;
     color: white;
 } 
 
-.tretaKartickaBody{
+.KartickaBody{
     padding-top: 0%;
 }
 
-.tretaKartickaMalTitle{
+.KartickaMalTitle{
     font-size: 13px;
     font-weight: 600;
     color: #562894;
 }
 
-.tretaKartickaKopche{
+.KartickaKopche{
     border: 1px solid #562894;
     color: #562894;
     font-weight: 600;
 }
 
-/* treta karticka */
+/*  karticka */
 
 
-/* chetvrta karticka */
+/*  karticka */
 
-.chetvrtaKartickaKarticka:hover{
+.karticka:hover{
     border: 3px solid  #562894;
 }
 
-.chetvrtaKartickaKarticka:hover .chetvrtaKartickaKopche{
+.karticka:hover .KartickaKopche{
     background-color: #562894;
     color: white;
 } 
 
-.chetvrtaKartickaBody{
+.KartickaBody{
     padding-top: 0%;
 }
 
-.chetvrtaKartickaMalTitle{
+.KartickaMalTitle{
     font-size: 13px;
     font-weight: 600;
     color: #562894;
 }
 
-.chetvrtaKartickaKopche{
+.KartickaKopche{
     border: 1px solid #562894;
     color: #562894;
     font-weight: 600;
 }
 
-/* chetvrta karticka */
+/*  karticka */
 /* staff pick */
 
 
@@ -659,7 +625,7 @@
 /* 992px - 1199.98px */
 
 @media (min-width: 992px) and (max-width: 1199.98px){
-    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+    .karticka, .karticka, .karticka, .karticka{
         width: 11rem !important;
     }
 
@@ -674,11 +640,11 @@
 /* 768px */
 
 @media (max-width: 768px) {
-    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+    .karticka, .karticka, .karticka, .karticka{
         width: 17.60rem !important;
     }
 
-    .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+    .karticka, .karticka{
         margin-top: 25px;
     }
 
@@ -717,11 +683,11 @@
 
 @media (max-width: 425px){
 
-    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+    .karticka, .karticka, .karticka, .karticka{
         width: 20.3rem !important;
     }
 
-    .vtoraKartickaKarticka{
+    .karticka{
         margin-top: 25px;
     }
 
@@ -750,7 +716,7 @@
 
 @media (max-width: 375px){
 
-    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+    .karticka, .karticka, .karticka, .karticka{
         width: 17.7rem !important;
     }
 
@@ -777,7 +743,7 @@
         display: none;
     }
 
-    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+    .karticka, .karticka, .karticka, .karticka{
         width: 14.8rem !important;
     }
 
