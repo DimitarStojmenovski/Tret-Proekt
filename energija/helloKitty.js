@@ -5,7 +5,7 @@ $(function () {
 var url = new URL(window.location.href)
 const gameName = url.searchParams.get("gameName")
 const game = gamesArray().filter(obj => obj.name == gameName)[0]
-
+document.title = game.name
 
 window.onload = function () {
   loadStatic();
