@@ -1,175 +1,278 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="tretProekt.css">
 
-    <title>Tret proekt</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn">Топ</button>
-      <div class="container">
-        <div class="pos-f-t">
-          <nav class="navbar navbar-light bg-lightgrey">
-            <a href="#" class="navbar-brand">
-              <span><img src="Materijali/Brainster-Logo.png" alt="logo" class="img-responsive" width="45px"> <strong>BRAINSTERBOX</strong></span>
-            </a>
-            <button type="button" data-toggle="collapse" data-target="#demo" class="btn ml-auto prashalnik"><i class="fas fa-question"></i></button>
-            <h5 class="headlineMeni">МЕНИ</h5>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </nav>
-          <div class="collapse visina" id="navbarToggleExternalContent">
-            <div class="bg-lightgrey p-4 centarMeni">
-              <ul class="list-group list-group-flush ulMeni">
-                <li class="list-group-item"><a href="https://www.brainster.io/business" target="_blank" class="listItem1">Корпоративни тренинзи</a></li>
-                <li class="list-group-item"><a href="https://brainster.co/courses#!/grid/infinite/throttle:30/threshold:30/" target="_blank" class="listItem2">Курсеви</a></li>
-                <li class="list-group-item"><a href="http://codepreneurs.co/" target="_blank" class="listItem3">Академија за програмирање</a></li>
-                <li class="list-group-item"><a href="https://www.brainster.io/marketpreneurs" target="_blank" class="listItem4">Академија за маркетинг</a></li>
-                <li class="list-group-item"><a href="https://www.brainster.io/akademija-za-dizajn" target="_blank" class="listItem5">Академија за дизајн</a></li>
-              </ul>
-            </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="tretProekt.css">
+
+  <title>Tret proekt</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn">Топ</button>
+    <div class="container">
+      <div class="pos-f-t">
+        <nav class="navbar navbar-light bg-lightgrey">
+          <a href="#" class="navbar-brand">
+            <span class="logoName"><img src="Materijali/Brainster-Logo.png" alt="logo" class="img-responsive" width="45px">
+              <strong>BRAINSTERBOX</strong></span>
+          </a>
+          <button type="button" data-toggle="collapse" data-target="#demo" class="btn ml-auto prashalnik"><i class="fas fa-question"></i></button>
+          <h5 class="headlineMeni">МЕНИ</h5>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+        <div class="collapse visina" id="navbarToggleExternalContent">
+          <div class="bg-lightgrey p-4 centarMeni">
+            <ul class="list-group list-group-flush ulMeni">
+              <li class="list-group-item"><a href="https://www.brainster.io/business" target="_blank" class="listItem1">Корпоративни
+                  тренинзи</a></li>
+              <li class="list-group-item"><a href="https://brainster.co/courses#!/grid/infinite/throttle:30/threshold:30/"
+                  target="_blank" class="listItem2">Курсеви</a></li>
+              <li class="list-group-item"><a href="http://codepreneurs.co/" target="_blank" class="listItem3">Академија
+                  за програмирање</a></li>
+              <li class="list-group-item"><a href="https://www.brainster.io/marketpreneurs" target="_blank" class="listItem4">Академија
+                  за маркетинг</a></li>
+              <li class="list-group-item"><a href="https://www.brainster.io/akademija-za-dizajn" target="_blank" class="listItem5">Академија
+                  за дизајн</a></li>
+            </ul>
           </div>
         </div>
+      </div>
 
-        <div id="demo" class="row collapse show violetovaPozadina">
-          <div class="col-xl-12 col-lg-12">
-            <div class="row violetovaPozadinaRow">
-              <div class="col-xl-12 col-lg-12 violetovaPozadinaCol">
-                <h3 class="text-center violetovaPozadinaTitle">BRAINSTERBOX</h3>
-                <p class="text-center violetovaPozadinaBody">Твојата лична кутија со ресурси и алатки за креативна колаборација и откривање на потенцијалот во твојот тим или организација.</p>
-                <div class="row boxItems">
-                  <div class="col-xl-12 col-lg-12 boxItemsRow">
-                    <div class="energija">
-                      <img src="Materijali/01.png" width="100px">
-                      <p><span class="energijaBody1">РАЗДВИЖИ ГО ПРОСТОРОТ СО</span><br><span class="energijaBody2">ЕНЕРГИЈА</span></p>
-                      <hr>
-                      <p class="energijaBody3">Алатки кои ја подигнуваат енергијата меѓу процесите и луѓето преку забава.</p>
-                    </div>
+      <div id="demo" class="row collapse show violetovaPozadina">
+        <div class="col-xl-12 col-lg-12">
+          <div class="row violetovaPozadinaRow">
+            <div class="col-xl-12 col-lg-12 violetovaPozadinaCol">
+              <h3 class="text-center violetovaPozadinaTitle">BRAINSTERBOX</h3>
+              <p class="text-center violetovaPozadinaBody">Твојата лична кутија со ресурси и алатки за креативна
+                колаборација и откривање на потенцијалот во твојот тим или организација.</p>
+              <div class="row boxItems">
+                <div class="col-xl-12 col-lg-12 boxItemsRow">
+                  <div class="energija">
+                    <img src="Materijali/01.png" width="100px">
+                    <p><span class="energijaBody1">РАЗДВИЖИ ГО ПРОСТОРОТ СО</span><br><span class="energijaBody2">ЕНЕРГИЈА</span></p>
+                    <hr>
+                    <p class="energijaBody3">Алатки кои ја подигнуваат енергијата меѓу процесите и луѓето преку забава.</p>
+                  </div>
 
-                    <div class="inovacii">
-                      <img src="Materijali/02.png" width="110px">
-                      <p><span class="inovaciiBody1">ОТКЛУЧИ</span><br><span class="inovaciiBody2">ИНОВАЦИИ</span></p>
-                      <hr>
-                      <p class="inovaciiBody3">Алатки за ослободување на креативноста и развивање нови продукти и услуги.</p>
-                    </div>
+                  <div class="inovacii">
+                    <img src="Materijali/02.png" width="110px">
+                    <p><span class="inovaciiBody1">ОТКЛУЧИ</span><br><span class="inovaciiBody2">ИНОВАЦИИ</span></p>
+                    <hr>
+                    <p class="inovaciiBody3">Алатки за ослободување на креативноста и развивање нови продукти и услуги.</p>
+                  </div>
 
-                    <div class="liderstvo">
-                      <img src="Materijali/03.png" width="100px">
-                      <p><span class="liderstvoBody1">РАЗВИЈ ПЕРСОНАЛНО</span><br><span class="liderstvoBody2">ЛИДЕРСТВО</span></p>
-                      <hr>
-                      <p class="liderstvoBody3">Алатки за персонален развој, самосвест и како да се интегрира постојано учење и раст.</p>
-                    </div>
+                  <div class="liderstvo">
+                    <img src="Materijali/03.png" width="100px">
+                    <p><span class="liderstvoBody1">РАЗВИЈ ПЕРСОНАЛНО</span><br><span class="liderstvoBody2">ЛИДЕРСТВО</span></p>
+                    <hr>
+                    <p class="liderstvoBody3">Алатки за персонален развој, самосвест и како да се интегрира постојано
+                      учење и раст.</p>
+                  </div>
 
-                    <div class="akcija">
-                      <img src="Materijali/04.png" width="100px">
-                      <p><span class="akcijaBody1">НАПРАВИ ПРОМЕНА ПРЕКУ</span><br><span class="akcijaBody2">АКЦИЈА</span></p>
-                      <hr>
-                      <p class="akcijaBody3">Алатки фокусирани на имплементација, егзекуција <br>и поддршка на промените <br>во тимот.</p>
-                    </div>
+                  <div class="akcija">
+                    <img src="Materijali/04.png" width="100px">
+                    <p><span class="akcijaBody1">НАПРАВИ ПРОМЕНА ПРЕКУ</span><br><span class="akcijaBody2">АКЦИЈА</span></p>
+                    <hr>
+                    <p class="akcijaBody3">Алатки фокусирани на имплементација, егзекуција <br>и поддршка на промените
+                      <br>во тимот.</p>
+                  </div>
 
-                    <div class="tim">
-                      <img src="Materijali/05.png" width="100px">
-                      <p><span class="timBody1">ИЗГРАДИ НЕПОБЕДЛИВ</span><br><span class="timBody2">ТИМ</span></p>
-                      <hr>
-                      <p class="timBody3">Алатки за ефективни тимови-поттикнување доверба и отвореност за поголема соработка.</p>
-                    </div>
+                  <div class="tim">
+                    <img src="Materijali/05.png" width="100px">
+                    <p><span class="timBody1">ИЗГРАДИ НЕПОБЕДЛИВ</span><br><span class="timBody2">ТИМ</span></p>
+                    <hr>
+                    <p class="timBody3">Алатки за ефективни тимови-поттикнување доверба и отвореност за поголема
+                      соработка.</p>
                   </div>
                 </div>
-                <button class=" btn kopcheZapochni" type="button" data-toggle="collapse" data-target="#demo">Започни</button>
               </div>
+              <button class=" btn kopcheZapochni" type="button" data-toggle="collapse" data-target="#demo">Започни</button>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="row filtriRow">
-          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 kategorija">
-            <p class="kategorijaText">Пребарајте по Категорија</p>
-            <div class="row kopchinjaRow1">
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheEnergija mainSelector" onclick="filterMain(this)">Енергија <span id="energyCounter" class="counterText"></span></button></div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheInovacii mainSelector" onclick="filterMain(this)">Иновации <span id="innovationCounter" class="counterText"></span></button></div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheLiderstvo mainSelector" onclick="filterMain(this)">Лидерство <span id="leadershipCounter" class="counterText"></span></button></div>
-            </div>
-            <div class="row kopchinjaRow2">
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheAkcija mainSelector" onclick="filterMain(this)">Акција <span id="actionCounter" class="counterText"></span></button></div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button class="btn btn-block kopcheTim mainSelector" onclick="filterMain(this)">Тим <span id="teamCounter" class="counterText"></span></button></div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><button id="allButton" class="btn btn-block kopcheSite mainSelector highlightedButton" onclick="filterMain(this)">Сите <span  id="allCounter" class="counterText"></span></button></div>
-            </div>
+      <div class="row filtriRow">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 kategorija">
+          <p class="kategorijaText">Пребарајте по Категорија</p>
+          <div class="row kopchinjaRow1">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"><button class="btn btn-block kopcheEnergija mainSelector"
+                onclick="filterMain(this)">Енергија <span id="energyCounter" class="counterText"></span></button></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"><button class="btn btn-block kopcheInovacii mainSelector"
+                onclick="filterMain(this)">Иновации <span id="innovationCounter" class="counterText"></span></button></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"><button class="btn btn-block kopcheLiderstvo mainSelector"
+                onclick="filterMain(this)">Лидерство <span id="leadershipCounter" class="counterText"></span></button></div>
           </div>
-
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 vremenskaramkaRow">
-            <p class="vremenskaramkaText">Временска рамка (минути)</p>
-            <div class="row prvRed">
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche1 timeSelector" onclick="filterTime(this, 5, 30)">5-30</button></div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche2 timeSelector" onclick="filterTime(this, 30, 60)">30-60</button></div>
-            </div>
-            <div class="row vtorRed">
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche3 timeSelector" onclick="filterTime(this, 60, 120)">60-120</button></div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche4 timeSelector" onclick="filterTime(this, 120, 240)">120-240</button></div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 grupaRow">
-            <p class="grupaText">Големина на група</p>
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche1 groupSelector" onclick="filterGroup(this, 2, 10)">2-10</button></div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche2 groupSelector" onclick="filterGroup(this, 10, 40)">10-40</button></div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche3 groupSelector" onclick="filterGroup(this, 40)">40+</button></div>
-            </div>
+          <div class="row kopchinjaRow2">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"><button class="btn btn-block kopcheAkcija mainSelector"
+                onclick="filterMain(this)">Акција <span id="actionCounter" class="counterText"></span></button></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"><button class="btn btn-block kopcheTim mainSelector"
+                onclick="filterMain(this)">Тим <span id="teamCounter" class="counterText"></span></button></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12"><button id="allButton" class="btn btn-block kopcheSite mainSelector highlightedButton"
+                onclick="filterMain(this)">Сите <span id="allCounter" class="counterText"></span></button></div>
           </div>
         </div>
 
-        <div class="row kartickiRow">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-            <p class="text-right preporakaText"><a href="#chetiriKartickiRow" class="preporakaTextLink">Препорачани од нашиот тим</a></p>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 vremenskaramkaRow">
+          <p class="vremenskaramkaText">Временска рамка (минути)</p>
+          <div class="row prvRed">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche1 timeSelector"
+                onclick="filterTime(this, 5, 30)">5-30</button></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche2 timeSelector"
+                onclick="filterTime(this, 30, 60)">30-60</button></div>
+          </div>
+          <div class="row vtorRed">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche3 timeSelector"
+                onclick="filterTime(this, 60, 120)">60-120</button></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6"><button class="btn btn-block vremeKopche4 timeSelector"
+                onclick="filterTime(this, 120, 240)">120-240</button></div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 grupaRow">
+          <p class="grupaText">Големина на група</p>
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche1 groupSelector"
+                onclick="filterGroup(this, 2, 10)">2-10</button></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche2 groupSelector"
+                onclick="filterGroup(this, 10, 40)">10-40</button></div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4"><button class="btn btn-block grupaKopche3 groupSelector"
+                onclick="filterGroup(this, 40)">40+</button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row kartickiRow">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <p class="text-right preporakaText"><a href="#chetiriKartickiRow" class="preporakaTextLink">Препорачани од
+              нашиот тим</a></p>
+        </div>
       </div>
 
       <div id="cardsContainer"></div>
 
-      <div class="row footer">
-        <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offet-1 footerCol">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxOne">
-              <h3 class="footerPrvTitle">Brainster Box</h3>
-              <p>Brainster Box е ресурс за секој што сака да ги направи работите покреативни и поефикасни во својот тим или компанија.</p>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxTwo">
-              <h3 class="footerPrvTitle">За нас</h3>
-              <p>Brainster е иновативно компанија за едукација која комбинира врвен наставен план, експертиза и ефективна стратегија за обучување на компании и индивидуалци.</p>
-            </div>
-
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxThree">
-                <h3 class="footerPrvTitle">Продукти на Brainster</h3>
-                <ul>
-                  <li>Корпоративни тренинзи</li>
-                  <li>Курсеви</li>
-                  <li>Академија за програмирање</li>
-                  <li>Академија за маркетинг</li>
-                  <li>Академија за дизајн</li>
-                </ul>
-                <!-- <div class="socialMedia"> -->
-                  <img src="Materijali/footer/instagram.png" alt="instagram" width="25px;" class="float-right img-fluid instaIkona">
-                  <img src="Materijali/footer/twitter.png" alt="twitter" width="25px;" class="float-right img-fluid twitIkona">
-                  <img src="Materijali/footer/linkedin.png" alt="linkedin" width="25px;" class="float-right img-fluid linkedinIkona">
-                  <img src="Materijali/footer/facebook.png" alt="facebook" width="25px;" class="float-right img-fluid facebIkona">
-                <!-- </div> -->
+      <p class="dolePreporakaText">Препорачани од нашиот тим</p>
+      <div class="row chetiriKartickiRow" id="chetiriKartickiRow">
+        <div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 prvaKarticka">
+            <div class="card prvaKartickaKarticka" style="width: 15.93rem;">
+              <img class="card-img-top" src="Materijali/energija/9.png" alt="Mazunga" class="img-fluid" width="200px">
+              <div class="card-body prvaKartickaBody">
+                <p class="prvaKartickaMalTitle">ЕНЕРГИЈА</p>
+                <h5 class="prvaKartickaTitle">Mazunga</h5>
+                <p class="prvaKartickaBody">Овој брз и гласен energizer е многу ефикасен за зголемување на енергијата
+                  на групата за многу краток временски период...</p>
+                <a href="#" class="btn btn-block prvaKartickaKopche">Дознај повеќе</a>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 vtoraKarticka">
+            <div class="card vtoraKartickaKarticka" style="width: 15.93rem;">
+              <img class="card-img-top" src="Materijali/inovacii/1.png" alt="Тhe 5 Whys" class="img-fluid" width="200px">
+              <div class="card-body vtoraKartickaBody">
+                <p class="vtoraKartickaMalTitle">ИНОВАЦИИ</p>
+                <h5 class="vtoraKartickaTitle">Тhe 5 Whys</h5>
+                <p class="vtoraKartickaBody">Овој едноставен и моќен метод е корисен за откривање на јадрото на
+                  проблемот или предизвикот...</p>
+                <a href="#" class="btn btn-block vtoraKartickaKopche">Дознај повеќе</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 tretaKarticka">
+            <div class="card tretaKartickaKarticka" style="width: 15.93rem;">
+              <img class="card-img-top" src="Materijali/liderstvo/03.png" alt="Feedback: I appreciate" class="img-fluid"
+                width="200px">
+              <div class="card-body tretaKartickaBody">
+                <p class="tretaKartickaMalTitle">ЛИДЕРСТВО</p>
+                <h5 class="tretaKartickaTitle">Feedback: I appreciate</h5>
+                <p class="tretaKartickaBody">Редовен и ефективен фидбек е еден од најважните состојки во градењето
+                  конструктивни односи...</p>
+                <a href="#" class="btn btn-block tretaKartickaKopche">Дознај повеќе</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 chetvrtaKarticka">
+            <div class="card chetvrtaKartickaKarticka" style="width: 15.93rem;">
+              <img class="card-img-top" src="Materijali/tim/1.png" alt="Conflict Responses" class="img-fluid" width="200px">
+              <div class="card-body chetvrtaKartickaBody">
+                <p class="chetvrtaKartickaMalTitle">ТИМ</p>
+                <h5 class="chetvrtaKartickaTitle">Conflict Responses</h5>
+                <p class="chetvrtaKartickaBody">Работилница за тим кој ќе размислува за минатите конфликти и ги користи
+                  за да генерира насоки за ефикасно...</p>
+                <a href="#" class="btn btn-block chetvrtaKartickaKopche">Дознај повеќе</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
+  </div>
+  </div>
 
-    <script src="dataLoader.js"></script>
-    <script src="tretProekt.js"></script>
-  </body>
+  <div class="row footer">
+    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-10 offset-1 footerCol">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxOne">
+          <h3 class="footerPrvTitle">Brainster Box</h3>
+          <p>Brainster Box е ресурс за секој што сака да ги направи работите покреативни и поефикасни во својот тим или
+            компанија.</p>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxTwo">
+          <h3 class="footerPrvTitle">За нас</h3>
+          <p>Brainster е иновативно компанија за едукација која комбинира врвен наставен план, експертиза и ефективна
+            стратегија за обучување на компании и индивидуалци.</p>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 boxThree">
+          <h3 class="footerPrvTitle">Продукти на Brainster</h3>
+          <ul>
+            <li>Корпоративни тренинзи</li>
+            <li>Курсеви</li>
+            <li>Академија за програмирање</li>
+            <li>Академија за маркетинг</li>
+            <li>Академија за дизајн</li>
+          </ul>
+          <!-- <div class="socialMedia"> -->
+          <img src="Materijali/footer/instagram.png" alt="instagram" width="25px;" class="float-right img-fluid instaIkona">
+          <img src="Materijali/footer/twitter.png" alt="twitter" width="25px;" class="float-right img-fluid twitIkona">
+          <img src="Materijali/footer/linkedin.png" alt="linkedin" width="25px;" class="float-right img-fluid linkedinIkona">
+          <img src="Materijali/footer/facebook.png" alt="facebook" width="25px;" class="float-right img-fluid facebIkona">
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="dataLoader.js"></script>
+  <script src="tretProekt.js"></script>
+</body>
+
 </html>

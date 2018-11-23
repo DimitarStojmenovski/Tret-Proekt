@@ -232,5 +232,5 @@ function presentFilter() {
 
 function openGame(name) {
     let param = name.replace(" ","")
-    window.location.href = `energija/helloKitty.html?gameName=${name}`;
+    window.open(`energija/helloKitty.html?gameName=${name}`);
 }
