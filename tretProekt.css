@@ -472,6 +472,10 @@
 
 .prvoHead{
     padding-top: 15px;
+    font-size: 40px;
+    text-size-adjust: auto;
+    height: 50px;
+    font-weight: 450;
 }
 
 .prvoBold{
@@ -2027,6 +2031,10 @@
 
     #myBtn{
         right: 15px;
+    }
+
+    .allCards{
+        margin-top: 25px;
     }
 }
 

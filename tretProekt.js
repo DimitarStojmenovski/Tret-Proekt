@@ -213,10 +213,10 @@ function presentFilter() {
              gamesDOM += `<div class="row paddedRow">`
         }
         gamesDOM += `
-             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 allCards">
                  <div class="prvoPrvo" onclick="openGame('${game.name}')">
                   <img src="${game.image}" alt="${game.name}" class="img-fluid" width="300px">
-                  <h4 class="prvoHead">${game.name}</h4>
+                  <p class="prvoHead">${game.name}</p>
                   <p class="prvoBold">${cyrilicType}</p>
                 </div>
             </div>
@@ -226,11 +226,35 @@ function presentFilter() {
         }
         count++;
     }
-    document.getElementById("cardsContainer").innerHTML = gamesDOM; 
+    document.getElementById("cardsContainer").innerHTML = gamesDOM;
+  
+    let cont = document.getElementById("cardsContainer");
+    let allHeaders = cont.getElementsByClassName("prvoHead")
+
+    for (let title of allHeaders) {
+        adjustFont(title)
+    }
 }
 
 
 function openGame(name) {
     let param = name.replace(" ","")
     window.open(`energija/helloKitty.html?gameName=${name}`);
+}
+
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
+
+function adjustFont(el) {
+
+    var style = window.getComputedStyle(el, null).getPropertyValue('font-size');
+    var fontSize = parseFloat(style); 
+    for (let i = fontSize; i >= 0; i--) {
+        let overflow = isOverflown(el);
+        if (overflow) {
+         fontSize--;
+         el.style.fontSize = fontSize + "px";
+        }
+    }
 }
