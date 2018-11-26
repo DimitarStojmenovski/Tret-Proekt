@@ -2241,6 +2241,21 @@
 /* 375px */
 
 
+/* 321px - 363px */
+
+
+@media (min-width: 321px) and (max-width: 363px){
+    .logoName strong{
+        display: none;
+    }
+}
+
+/* 321px - 363px */
+
+
+/* 320px */
+
+
 @media (max-width: 320px){
 
     .logoName strong{
