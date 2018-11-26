@@ -2284,6 +2284,10 @@
         width: 55px !important;
         margin-right: 5px;
     }
+
+    .prvoHead{
+        font-size: 21px;
+    }
 }
 
 /* 320px */
