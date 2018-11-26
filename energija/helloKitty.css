@@ -735,6 +735,14 @@
 
 /* 375px */
 
+
+@media (min-width: 321px) and (max-width: 363px){
+    .logoName strong{
+        display: none;
+    }
+}
+
+
 /* 320px */
 
 @media (max-width: 320px){
