@@ -2,9 +2,9 @@
     height: 250px;
 } */
 
-.paddedRow {
+/* .paddedRow {
     padding-top: 25px;
-}
+} */
 #myBtn {
     display: none;
     position: fixed;
@@ -464,6 +464,7 @@
     border: 1px solid #562894;
     border-radius: 5px;
     text-align: center;
+    margin-top: 25px;
 }
 
 .prvoPrvo:hover{
@@ -1835,7 +1836,7 @@
 
 @media (min-width: 1200px) and (max-width: 1409px) {
     .instaIkona{
-        margin-right: 53% !important;
+        margin-right: 21% !important;
     }
 }
 
@@ -1861,12 +1862,81 @@
         font-size: 12px;
     }
 
-    /* .grupaKopche2Text{
-        margin: 0%;
-    } */
+    .prvoHead{
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
 }
 
 /* 992px - 1199.98px */
+
+
+
+/* 769px - 1199px */
+
+@media (min-width: 769px) and (max-width: 1199px) {
+    .filtersText{
+        font-size: 80%;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .filtersText2{
+        font-size: 70%;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .filtersText3{
+        font-size: 51%;
+        font-weight: bold;
+        align-items: center;
+    }
+}
+
+/* 769px - 1199px */
+
+
+/* 769px - 991px */
+@media (min-width: 769px) and (max-width: 991px){
+
+    .prvoHead{
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .prvoPrvo{
+        margin-top: 25px;
+    }
+
+    .paddedRow {
+        padding-top: 0px;
+    }
+
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 20.6rem !important;
+    }
+
+    .tretaKartickaKarticka, .chetvrtaKartickaKarticka {
+        margin-top: 25px;
+    }
+
+    .instaIkona{
+        margin-right: 15%;
+    }
+
+    #myBtn{
+        right: 15px;
+    }
+
+    .instaIkona, .twitIkona, .linkedinIkona, .facebIkona {
+        margin-top: 30px;
+    }
+
+}
+
+/* 769px - 991px */
 
 
 
@@ -1874,12 +1944,16 @@
 
 @media (max-width: 768px) {
 
+    .allCards{
+        margin-top: 0% !important;
+    }
+
     .prashalnik{
         display: none;
     }
 
     .headlineMeni{
-        padding-left: 300px;
+        padding-left: 25%;
     }
 
     .violetovaPozadina{
@@ -2041,6 +2115,22 @@
 /* 768px */
 
 
+/* 767px - 575px */
+
+@media (min-width: 575px) and (max-width: 767px){
+
+    .prvaKartickaKarticka, .vtoraKartickaKarticka, .tretaKartickaKarticka, .chetvrtaKartickaKarticka{
+        width: 15rem !important;
+    }
+
+    .tretaKartickaKarticka, .chetvrtaKartickaKarticka {
+        margin-top: 25px;
+    }
+}
+
+/* 767px - 575px */
+
+
 /* 576 px */
 
 
@@ -2111,21 +2201,21 @@
     }
 
     .prvaKartickaKarticka{
-        width: 22.5rem !important;
+        width: 32.1rem !important;
 
     }
 
     .vtoraKartickaKarticka{
-        width: 22.5rem !important;
+        width: 32.1rem !important;
         margin-top: 25px;
     }
 
     .tretaKartickaKarticka{
-        width: 22.5rem !important;
+        width: 32.1rem !important;
     }
 
     .chetvrtaKartickaKarticka{
-        width: 22.5rem !important;
+        width: 32.1rem !important;
     }
 
     .instaIkona{
@@ -2267,21 +2357,21 @@
     }
 
     .instaIkona{
-        width: 55px !important;
+        width: 45px !important;
     }
 
     .twitIkona{
-        width: 55px !important;
+        width: 45px !important;
         margin-right: 5px;
     }
 
     .linkedinIkona{
-        width: 55px !important;
+        width: 45px !important;
         margin-right: 5px;
     }
 
     .facebIkona{
-        width: 55px !important;
+        width: 45px !important;
         margin-right: 5px;
     }
 
