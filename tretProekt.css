@@ -1843,6 +1843,20 @@
 /* 1200px - 1409px */
 
 
+
+
+/* 1200px - 1440px */
+
+@media (min-width: 1200px) and (max-width: 1440px){
+    #myBtn{
+        right: 15px;
+    }
+}
+
+/* 1200px - 1440px */
+
+
+
 /* 992px - 1199.98px */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
