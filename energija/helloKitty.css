@@ -582,7 +582,7 @@
 }
 
 .instaIkona{
-    margin-right: 210px;
+    margin-right: 23%;
     margin-top: 50px;
 }
 
@@ -616,7 +616,7 @@
 
 @media (min-width: 1200px) and (max-width: 1409px) {
     .instaIkona{
-        margin-right: 53% !important;
+        margin-right: 21% !important;
     }
 }
 
@@ -630,11 +630,52 @@
     }
 
     .instaIkona{
-        margin-right: 93px;
+        margin-right: 23%;
     }
 }
 
 /* 992px - 1199.98px */
+
+
+
+/* 767px - 856px */
+
+
+@media (min-width: 767px) and (max-width: 856px){
+    .instaIkona{
+        margin-right: 12%;
+    }
+}
+
+
+/* 767px - 856px */
+
+
+
+/* 767px - 991px */
+
+@media (min-width: 767px) and (max-width: 991px){
+    .karticka, .karticka, .karticka, .karticka{
+        width: 17.6rem !important;
+        margin-top: 25px;
+    }
+}
+
+/* 767px - 991px */
+
+
+
+/* 576px - 767px */
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .headlineMeni{
+        padding-left: 25%;
+    }
+}
+
+
+/* 576px - 767px */
 
 
 /* 768px */
@@ -679,6 +720,32 @@
 /* 768px */
 
 
+/* 568px - 767px */
+
+
+@media (min-width: 568px) and (max-width: 767px){
+    .karticka, .karticka, .karticka, .karticka{
+        width: 12.9rem !important;
+    }
+}
+
+
+/* 568px - 767px */
+
+
+
+/* 426px - 567px */
+
+@media (min-width: 426px) and (max-width: 567px){
+    .karticka, .karticka, .karticka, .karticka{
+        width: 22rem !important;
+    }
+}
+
+/* 426px - 567px */
+
+
+
 /* 425px */
 
 @media (max-width: 425px){
@@ -692,20 +759,20 @@
     }
 
     .instaIkona{
-        width: 60px !important;
+        width: 50px !important;
         margin-right: 0px;
     }
 
     .twitIkona{
-        width: 60px !important;
+        width: 50px !important;
     }
 
     .linkedinIkona{
-        width: 60px !important;
+        width: 50px !important;
     }
 
     .facebIkona{
-        width: 60px !important;
+        width: 50px !important;
     }
 }
 
@@ -756,21 +823,21 @@
     }
 
     .instaIkona{
-        width: 55px !important;
+        width: 45px !important;
     }
 
     .twitIkona{
-        width: 55px !important;
+        width: 45px !important;
         margin-right: 5px;
     }
 
     .linkedinIkona{
-        width: 55px !important;
+        width: 45px !important;
         margin-right: 5px;
     }
 
     .facebIkona{
-        width: 55px !important;
+        width: 45px !important;
         margin-right: 5px;
     }
 }
