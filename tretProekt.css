@@ -1872,6 +1872,17 @@
 /* 992px - 1199.98px */
 
 
+/* 768px - 991px */
+
+@media (min-width: 768px) and (max-width: 991px){
+    .vremenskaramkaRow, .grupaRow{
+        display: none;
+    }
+}
+
+/* 768px - 991px */
+
+
 
 /* 769px - 1199px */
 
@@ -1883,13 +1894,13 @@
     }
 
     .filtersText2{
-        font-size: 70%;
+        font-size: 75%;
         align-items: center;
         font-weight: bold;
     }
 
     .filtersText3{
-        font-size: 51%;
+        font-size: 75%;
         font-weight: bold;
         align-items: center;
     }
@@ -2262,20 +2273,20 @@
     }
 
     .instaIkona{
-        width: 60px !important;
+        width: 50px !important;
         margin-right: 40px;
     }
 
     .twitIkona{
-        width: 60px !important;
+        width: 50px !important;
     }
 
     .linkedinIkona{
-        width: 60px !important;
+        width: 50px !important;
     }
 
     .facebIkona{
-        width: 60px !important;
+        width: 50px !important;
     }
 }
 
@@ -2286,7 +2297,7 @@
 @media (max-width: 375px){
 
     .instaIkona{
-        width: 60px !important;
+        width: 50px !important;
         margin-right: 20px;
     }
 
