@@ -434,10 +434,12 @@
     padding-top: 16px;
 }
 
+/* karticka */
+
 
 .karticka:hover{
     border: 3px solid  #562894;
-    width: 13.35rem;
+    /* width: 13.35rem; */
 }
 
 .karticka:hover .KartickaKopche{
@@ -461,6 +463,8 @@
     font-weight: 600;
 }
 
+/* kartcka */
+
 
 .karticka:hover{
     border: 3px solid  #562894;
@@ -473,6 +477,40 @@
 
 .KartickaBody{
     padding-top: 0%;
+}
+
+.KartickaMalTitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #562894;
+}
+
+.KartickaKopche{
+    border: 1px solid #562894;
+    color: #562894;
+    font-weight: 600;
+}
+
+/*  karticka */
+
+
+/*  karticka */
+
+.karticka:hover{
+    border: 3px solid  #562894;
+}
+
+.karticka:hover .KartickaKopche{
+    background-color: #562894;
+    color: white;
+} 
+
+.KartickaBody{
+    padding-top: 0%;
+}
+
+.KartickaTitleTri{
+    font-size: 17px;
 }
 
 .KartickaMalTitle{
@@ -520,34 +558,6 @@
 /*  karticka */
 
 
-/*  karticka */
-
-.karticka:hover{
-    border: 3px solid  #562894;
-}
-
-.karticka:hover .KartickaKopche{
-    background-color: #562894;
-    color: white;
-} 
-
-.KartickaBody{
-    padding-top: 0%;
-}
-
-.KartickaMalTitle{
-    font-size: 13px;
-    font-weight: 600;
-    color: #562894;
-}
-
-.KartickaKopche{
-    border: 1px solid #562894;
-    color: #562894;
-    font-weight: 600;
-}
-
-/*  karticka */
 /* staff pick */
 
 
@@ -629,9 +639,6 @@
         width: 11rem !important;
     }
 
-    .instaIkona{
-        margin-right: 23%;
-    }
 }
 
 /* 992px - 1199.98px */
