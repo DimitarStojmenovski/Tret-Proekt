@@ -2148,6 +2148,10 @@
         width: 15rem !important;
     }
 
+    .vtoraKartickaKarticka, .chetvrtaKartickaKarticka{
+        height: 32.8rem;
+    }
+
     .tretaKartickaKarticka, .chetvrtaKartickaKarticka {
         margin-top: 25px;
     }
